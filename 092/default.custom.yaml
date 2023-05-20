@@ -1,0 +1,12 @@
+customization:
+  distribution_code_name: Weasel
+  distribution_version: 0.86.0
+  generator: "Rime::SwitcherSettings"
+  modified_time: "Mon Jan  6 23:28:26 2020"
+  rime_version: 1.5.3
+patch:
+  schema_list:
+    - {schema: 092wb}
+#    - {schema: clover}
+#    - {schema: 092wb_U}
+#    - {schema: py}

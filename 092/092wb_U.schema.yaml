@@ -1,0 +1,212 @@
+# Rime schema settings
+# encoding: utf-8
+
+schema:
+  schema_id: 092wb_U
+  name: "超集"
+  version: "6.0"
+  author:
+    - 發明人 行走的风景
+  description: |
+    五笔092版
+    碼表源自 行走的风景
+    敲 z 鍵進入拼音反查
+  dependencies:
+    - py
+    - core            #过滤
+switches:
+  - name: ascii_mode
+    reset: 0
+  - name: zh_trad
+    reset: 0
+#    states: [ 简,繁 ]
+  - name: new_spelling
+    reset: 0
+#    states: [ 显,隐 ]  
+  - name: rvl_zhuyin
+    reset: 1
+#    states: [ 以形查音关,以形查音开 ]
+  - name: GB2312
+    reset: 0
+#    states: [ 扩,常 ]
+  - name: extended_char      # core过滤
+    reset: 1                          
+#    states: [ 滤, 放] 
+  - name: new_hide_pinyin
+    reset: 1
+#    states: [ 音, 哑 ]
+  - name: single_char
+    reset: 0
+#    states: [ 词, 单 ]
+  - name: ascii_punct
+    reset: 0
+#    states: [ 。，, ．， ]
+  - name: full_shape          # 全角符号/半角符号开关。注意，开启全角时英文字母亦为全角。 默认是半角模式
+    reset: 0
+#    states: [ 半, 全 ]
+  - name: show_es
+    reset: 0
+#    states: [ 😔, 😀 ] # emoji
+engine:
+  filters:
+    - lua_filter@core      # 加入此过滤，必须放到滤镜最上面
+    - charset_filter@gb2312  
+    - simplifier
+    - "reverse_lookup_filter@ci_reverse_lookup"
+    - lua_filter@new_spelling@spelling
+    - lua_filter@single_char
+    - uniquifier
+  processors:
+    - ascii_composer
+#    - lua_processor@submit_text_processor
+#    - lua_processor@switch_processor
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - "affix_segmentor@mkst"
+    - "affix_segmentor@rvlk1"
+    - "affix_segmentor@rvl_zhuyin"
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - reverse_lookup_translator
+    - "table_translator@rvlk1"
+    - table_translator
+    - "table_translator@fixed"
+    - "table_translator@mkst"
+    - "table_translator@rvl_zhuyin"
+    - "history_translator@history"
+    - "lua_translator@helper"
+    - "lua_translator@time_date"
+speller:
+  auto_select: true
+  auto_clear: max_length
+  delimiter: "`"
+  max_code_length: 4
+  
+translator:
+  dictionary: 092wb_U
+  db_class: tabledb
+  initial_quality: 100000
+  enable_charset_filter: false
+  enable_sentence: false
+  enable_encoder: false
+  encode_commit_history: false
+  max_phrase_length: 2
+  enable_completion: false
+  enable_user_dict: false
+  disable_user_dict_for_patterns:
+    - "^z.*$"
+
+fixed:
+  __include: /translator
+  initial_quality: 1000
+  enable_encoder: true
+  enable_user_dict: true
+  
+mkst:
+  __include: /translator
+  initial_quality: 10
+  enable_sentence: true
+  prefix: '`'
+  tips: "〔精准造词〕"
+  tag: mkst
+
+rvl_zhuyin:
+  __include: /translator
+  initial_quality: 10
+  enable_sentence: true
+  prefix: '~'
+  tips: "〔以形查音〕"
+  tag: zhuyin
+
+reverse_lookup:
+  __include: /translator
+  dictionary: py
+  tips: "〔拼音反查〕"
+  preedit_format:
+    - xform/([nl])v/$1ü/
+    - xform/([nl])ue/$1üe/
+    - xform/([jqxy])v/$1u/
+  tag: rvlk2
+    
+rvlk1:
+  __include: /reverse_lookup
+  prefix: "z"
+  tag: rvlk1
+  extra_tags:
+    - rvlk2  
+    
+ci_reverse_lookup:
+  dictionary: 092wb_U
+  tips: "〔五笔滤镜〕"
+  tags:
+    - rvlk2
+    
+
+simplifier:
+  opencc_config: s2t.json
+  option_name: zh_trad
+
+
+lua_reverse_db:
+  spelling: wb_spelling
+  code: wb_spelling
+
+recognizer:
+  import_preset: default
+  patterns:
+    email: "^[A-Za-z][-_.0-9A-Za-z]*@.*$"
+    mkst: "^[a-y]*`[a-y`]*$"
+    punct: "^zv([0-9]0?|[A-Za-z]+)$"
+    rvlk1: "^z[a-z]*$"
+    rvlk2: "^z[a-z]*$"
+    uppercase: "[A-Z][-_+.'0-9A-Za-z]*$"
+    url: "^(www[.]|https?:|ftp[.:]|mailto:|file:).*$|^[a-z]+[.].+$"
+    zhuyin: "~[a-y]*?$"
+    helper: '^aid$'
+
+history:
+  input: z
+  size: 1
+  initial_quality: 1
+  
+
+key_binder:
+  bindings: 
+#    - { when: has_menu, accept: Left, send: Up }             # 注释使Mac 方向键有效
+#    - { when: has_menu, accept: Right, send: Down }          # 注释使Mac 方向键有效
+    - {accept: minus, send: Page_Up, when: has_menu}
+    - {accept: equal, send: Page_Down, when: has_menu}
+    - {accept: semicolon, send: 2, when: has_menu}
+    - {accept: apostrophe, send: 3, when: has_menu}
+    - {accept: space, send: Escape, when: composing}
+    - {accept: space, send: space, when: has_menu}
+#    - {accept: Return, send: Escape, when: composing}          # 回车清码
+#    - {accept: Return, send: Escape, when: has_menu}           # 回车清码
+    - {accept: "Control+Shift+4", toggle: zh_trad, when: always}
+    - {accept: "Control+Shift+dollar", toggle: zh_trad, when: always}
+    - {accept: "Control+Shift+F", toggle: zh_trad, when: always}
+    - {accept: "Control+Shift+H", toggle: new_spelling, when: always}
+    - {accept: "Control+Shift+J", toggle: new_hide_pinyin, when: always} 
+    - {accept: "Control+Shift+K", toggle: single_char, when: always}
+    - {accept: "Control+Shift+U", toggle: extended_char, when: always}   # core过滤
+    - {accept: "Control+Shift+G", toggle: GB2312, when: always}    # GB2312过滤
+    - {accept: "Control+Shift+M", toggle: show_es, when: always}         # emoji
+    - {accept: "Shift+space", toggle: full_shape, when: always}          # 全角切换用于中文排版
+    - {accept: "Control+period", toggle: ascii_punct, when: always}      # 使用英文标点
+
+punctuator:
+  import_preset: symbols
+  
+menu:
+  page_size: 10  
