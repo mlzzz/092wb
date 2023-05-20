@@ -358,7 +358,6 @@ ping -n 2 127.0.0.1>nul
 echo 清空 opencc 成功
 ping -n 2 127.0.0.1>nul
 echo 准备放入新的 opencc
-echo %tables%
 xcopy /S /D "%tables%\092\opencc\*" "%regvalue%\data\opencc\"  >nul 2>&1
 ping -n 2 127.0.0.1>nul
 echo 放入成功
