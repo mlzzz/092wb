@@ -400,7 +400,7 @@ dictionarys
 switch_dicts_092k() {
 dict_dir="dicts"
 dict_file_name="092K.dict"
-dict_name="092k"
+dict_name="092K"
 if [ -e $Project_DL/$dict_file_name.yaml ]; then
    echo "旧 $dict_file_name.yaml 存在"
    rm -rf $Project_DL/$dict_file_name.yaml
