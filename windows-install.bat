@@ -164,7 +164,7 @@ goto :eof
 :switch_dicts_092k
 set dict_dir=dicts
 set dict_file_name=092K.dict
-set dict_name=092k
+set dict_name=092K
 echo 准备更换^&更新词库
 call :dictionarys
 goto :eof
