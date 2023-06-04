@@ -15,7 +15,8 @@ b          -- 备份方案
 r          -- 还原方案
 092        -- 092方案 (默认: d-092 h ns z zh)
 d-092      -- 切换为 092 词库
-d-092k     -- 切换为 092k 词库
+d-092k     -- 切换为 092K 词库
+d-092p     -- 切换为 092P 词库
 h          -- 切换为横排
 v          -- 切换为竖排
 s          -- 开启拆分提示
@@ -47,13 +48,37 @@ Mac 按 cmd + 空格 搜索 terminal 回车后执行：
 curl -O https://raw.iqiq.io/mlzzz/092wb/main/macOS-install.sh && sh macOS-install.sh 092
 ```
 
+Linux
+
+打开 `终端`
+
+第一步安装 `cURL`
+
+Ubuntu / Debian / KylinUbuntu :
+
+```shell
+sudo apt install curl -y
+```
+
+Arch / Manjaro :
+
+```shell
+sudo pacman -S curl
+```
+
+第二步
+
+```shell
+curl -O https://raw.iqiq.io/mlzzz/092wb/main/linux-install.sh && bash linux-install.sh 092
+```
+
 例一：我想要使用 092 默认英文 我还想让它竖排显示并且开启拆分提示
 
-![演示1.png](/Users/imac/Desktop/演示1.png)
+使用参数：092 en v s
 
 例二：我想使用092k
 
-![演示2.png](/Users/imac/Desktop/演示2.png)
+使用参数：092 d-092k
 
 例三：
 
@@ -83,3 +108,9 @@ curl -O https://raw.iqiq.io/mlzzz/092wb/main/macOS-install.sh && sh macOS-instal
 2. 词库更新 & 还原
    重新执行一遍你的词库参数
    例: curl xxx d-092k  或 curl xxx d-092
+
+## 变更日志
+2023年06月04日
+- 添加诗歌维护的092原版词库命名为092P
+- 添加 Linux 脚本，支持主流 Linux 发行版
+- 修复 Windows 脚本中 Git 下载源失效的问题
