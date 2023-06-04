@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "本次操作需要「管理员权限」，请输入密码"
-sudo "$0" >/dev/null 2>&1
+sudo -v >/dev/null 2>&1
 # debug
 # set -x
 # set -e
@@ -93,10 +93,12 @@ main() {
     spelling
   elif [ "$1" = "d" ] || [ "$1" = "z" ]; then
     rk
-  elif [ "$1" = "d-092k" ]; then
-    switch_dicts_092k
   elif [ "$1" = "d-092" ]; then
     switch_dicts_092
+  elif [ "$1" = "d-092k" ] || [ "$1" = "d-092K" ]; then
+    switch_dicts_092k
+  elif [ "$1" = "d-092p" ] || [ "$1" = "d-092P" ]; then
+    switch_dicts_092p
   elif [ "$1" = "clover" ]; then
     py_clover
   elif [ "$1" = "unclover" ]; then
@@ -143,19 +145,19 @@ download_dicts() {
 
 base() {
 sudo mkdir -p $rime_dir/build
-sudo cp -rf $Project_DL/092wb/092/spelling/wb_spelling.*.bin $rime_dir/build
-sudo cp -rf $Project_DL/092wb/092/* $rime_dir
+sudo cp -rf $Project_DL/$repo/092/spelling/wb_spelling.*.bin $rime_dir/build
+sudo cp -rf $Project_DL/$repo/092/* $rime_dir
 sudo rm -rf ~/Library/Rime/weasel.custom.yaml
 sudo rm -rf ~/Library/Rime/opencc/s2t.json
 sudo chmod -R 777 /Library/Input\ Methods/Squirrel.app
 sudo chmod -R 777 ~/Library/Rime
 if [ ! -f ~/Library/Rime/build/wb_spelling.prism.bin ]; then
-    sudo cp -rf $Project_DL/092wb/092/spelling/wb_spelling.*.bin ~/Library/Rime/build
+    sudo cp -rf $Project_DL/$repo/092/spelling/wb_spelling.*.bin ~/Library/Rime/build
 fi
 sudo xattr -rd im.rime.inputmethod.Squirrel /Library/Input\ Methods/Squirrel.app >/dev/null 2>&1
 /usr/bin/sudo -u "${login_user}" /Library/Input\ Methods/Squirrel.app/Contents/MacOS/Squirrel --install >/dev/null 2>&1
 echo "092方案添加功成!"
-sudo cp -rf $Project_DL/092wb/fonts/*.otf ~/Library/Fonts
+sudo cp -rf $Project_DL/$repo/fonts/*.otf ~/Library/Fonts
 echo "安装拆分字体成功!"
 echo "已完成所有安装!"
 echo "请「注销或退出登陆系统一次」，并在「设置-键盘-输入法」中添加「鼠须管」选项。"
@@ -169,7 +171,7 @@ wb_092() {
   
   if [ -d "$Project_DL" ]; then
       echo "存在旧项目,准备更新"
-      sudo rm -rf $Project_DL/092wb
+      sudo rm -rf $Project_DL/$repo
   else
       echo "项目不存在,准备克隆"
   fi
@@ -199,7 +201,7 @@ install_squirrel() {
   path=${0%/*}
   if [ ! -d "/Library/Input Methods/Squirrel.app" ]; then
     echo "检测到未安装鼠须管，执行全新安装"
-    sudo cp -rf $Project_DL/092wb/app/Squirrel.app /Library/Input\ Methods/
+    sudo cp -rf $Project_DL/$repo/app/Squirrel.app /Library/Input\ Methods/
     sudo cp -rf /Library/Input\ Methods/Squirrel.app/Contents/SharedSupport/* ~/Library/Rime
     sudo cp -rf /Library/Input\ Methods/Squirrel.app/Contents/SharedSupport ~/Library/Rime
     sudo rm -rf /Library/Input\ Methods/Squirrel.app/Contents/SharedSupport/build
@@ -216,7 +218,7 @@ install_squirrel() {
     sudo rm -rf /Library/Input\ Methods/Squirrel.app
     sudo rm -rf ~/Library/Rime/*
     echo "已停用旧版"
-    sudo cp -rf $Project_DL/092wb/app/Squirrel.app /Library/Input\ Methods/
+    sudo cp -rf $Project_DL/$repo/app/Squirrel.app /Library/Input\ Methods/
     sudo cp -rf /Library/Input\ Methods/Squirrel.app/Contents/SharedSupport/* ~/Library/Rime
     sudo cp -rf /Library/Input\ Methods/Squirrel.app/Contents/SharedSupport ~/Library/Rime
     sudo rm -rf /Library/Input\ Methods/Squirrel.app/Contents/SharedSupport/build
@@ -315,7 +317,7 @@ dictionarys () {
 
 py_clover () {
   echo "准备添加 clover "
-  sudo cp -rf $Project_DL/092wb/clover/* $rime_dir
+  sudo cp -rf $Project_DL/$repo/clover/* $rime_dir
   sed -i '' '10s/^#//' "$default_file"
   echo "成功添加"
 }
@@ -411,6 +413,20 @@ download_dicts
 dictionarys
 }
 
+
+switch_dicts_092p() {
+dict_dir="dicts"
+dict_file_name="092P.dict"
+dict_name="092P"
+if [ -e $Project_DL/$dict_file_name.yaml ]; then
+   echo "旧 $dict_file_name.yaml 存在"
+   rm -rf $Project_DL/$dict_file_name.yaml
+else
+   echo "旧 $dict_file_name.yaml 不存在，准备下载"
+fi
+download_dicts
+dictionarys
+}
 
 backup(){
 

@@ -8,12 +8,12 @@ c:
 REM 检测管理员权限 
 net session >nul 2>&1
 if %errorLevel% == 0 (
-    echo "权限满足" > nul
+    echo "权限满足" >nul
 ) else (
     echo "权限不足!"
     echo "请关闭窗口后重新右键以管理员运行cmd"
     echo "脚本即将退出..."
-    ping 127.0.0.1 -n 3 > nul
+    ping 127.0.0.1 -n 3 >nul
     exit
 )
 
@@ -22,9 +22,6 @@ set rime_folder=Rime
 set weasel_server=WeaselServer.exe
 set Project_DL=C:\Users\%USERNAME%\Downloads\092DL_temp
 if not exist "%Project_DL%" mkdir "%Project_DL%"
-set mb=092wb
-set Project_092_Dir=%Project_DL%\%mb%
-set tables=%Project_092_Dir%
 
 set mirrors=https://ghproxy.com/https://github.com/ ^
     https://hub.fgit.ml/ ^
@@ -50,6 +47,10 @@ set weasel_repo=weasel
 set version=0.14.3
 set weasel_name=weasel-0.14.3.0-installer
 
+set mb=%repo%
+set Project_092_Dir=%Project_DL%\%mb%
+set tables=%Project_092_Dir%
+
 call :path_UD  >nul 2>&1
 set "schema_file=%UserDir%\092wb.schema.yaml"
 set "default_file=%UserDir%\default.custom.yaml"
@@ -71,7 +72,7 @@ set "linkkey=HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\FontLink\SystemLi
 :main
 if "%1"=="" (
     echo 命令中的参数不能为空
-    ping 127.0.0.1 -n 3 > nul
+    ping 127.0.0.1 -n 3 >nul
     exit
 ) 
 if "%1"=="b" (
@@ -96,10 +97,16 @@ if "%1"=="b" (
     call :rk
 ) else if "%1"=="z" (
     call :rk
-) else if "%1"=="d-092k" (
-    call :switch_dicts_092k
 ) else if "%1"=="d-092" (
     call :switch_dicts_092
+) else if "%1"=="d-092k" (
+    call :switch_dicts_092k
+) else if "%1"=="d-092K" (
+    call :switch_dicts_092k
+) else if "%1"=="d-092p" (
+    call :switch_dicts_092p
+) else if "%1"=="d-092P" (
+    call :switch_dicts_092p
 ) else if "%1"=="clover" (
     call :py_clover
 ) else if "%1"=="unclover" (
@@ -108,7 +115,7 @@ if "%1"=="b" (
     call :Clear_Project_DL
 ) else (
     echo 非法参数，请输入正确的命令。
-    ping 127.0.0.1 -n 3 > nul
+    ping 127.0.0.1 -n 3 >nul
     exit
 )
 shift
@@ -127,17 +134,17 @@ echo "正在重新布署,请耐心等待..."
 "%regvalue%/WeaselDeployer.exe" /deploy
 ping -n 5 127.0.0.1>nul
 echo "布署完成!"
-ping 127.0.0.1 -n 2 -w 2000 > nul
+ping 127.0.0.1 -n 2 -w 2000 >nul
 echo "5s 后即将退出, 你可以按 Ctrl+C 终止退出"
-ping 127.0.0.1 -n 2 -w 1000 > nul
+ping 127.0.0.1 -n 2 -w 1000 >nul
 echo "4s 后即将退出, 你可以按 Ctrl+C 终止退出"
-ping 127.0.0.1 -n 2 -w 1000 > nul
+ping 127.0.0.1 -n 2 -w 1000 >nul
 echo "3s 后即将退出, 你可以按 Ctrl+C 终止退出"
-ping 127.0.0.1 -n 2 -w 1000 > nul
+ping 127.0.0.1 -n 2 -w 1000 >nul
 echo "2s 后即将退出, 你可以按 Ctrl+C 终止退出"
-ping 127.0.0.1 -n 2 -w 1000 > nul
+ping 127.0.0.1 -n 2 -w 1000 >nul
 echo "1s 后即将退出, 你可以按 Ctrl+C 终止退出"
-ping 127.0.0.1 -n 2 -w 1000 > nul
+ping 127.0.0.1 -n 2 -w 1000 >nul
 echo 退出成功
 endlocal
 exit
@@ -151,9 +158,9 @@ goto :eof
 
 :py_clover
 call :path_UD  >nul 2>&1
-if exist "%Project_DL%\092wb\clover\clover.schema.yaml" (
+if exist "%Project_DL%\%repo%\clover\clover.schema.yaml" (
     echo 找到 clover 文件
-    xcopy /S "%Project_DL%\092wb\clover" "%UserDir%" >nul 2>&1
+    xcopy /S "%Project_DL%\%repo%\clover" "%UserDir%" >nul 2>&1
 ) else (
     echo 没找到 clover 文件，准备 clone
     call :base
@@ -165,6 +172,14 @@ goto :eof
 set dict_dir=dicts
 set dict_file_name=092K.dict
 set dict_name=092K
+echo 准备更换^&更新词库
+call :dictionarys
+goto :eof
+
+:switch_dicts_092p
+set dict_dir=dicts
+set dict_file_name=092P.dict
+set dict_name=092P
 echo 准备更换^&更新词库
 call :dictionarys
 goto :eof
@@ -184,7 +199,7 @@ echo %PATH% | find /i "git" >nul 2>nul
 if %errorlevel% equ 0 (
     echo "在 PATH 中检测到 Git"
     git --version >nul 2>nul
-    ping 127.0.0.1 -n 2 > nul
+    ping 127.0.0.1 -n 2 >nul
     if %errorlevel% equ 0 (
 	echo "Git 命令已安装"
     ) else (
@@ -192,15 +207,15 @@ if %errorlevel% equ 0 (
         if exist "%ProgramFiles%\Git\bin\git.exe" (
 	    echo 在默认安装目录中找到 Git
 	    echo 准备添加到PATH
-            ping 127.0.0.1 -n 2 > nul
+            ping 127.0.0.1 -n 2 >nul
 	    set PATH=%PATH%;C:\Program Files\Git\bin
-            ping 127.0.0.1 -n 2 > nul
+            ping 127.0.0.1 -n 2 >nul
 	    echo 添加 PATH 完成
         ) else (
 	    echo 在默认安装目录中没有找到 Git
 	    echo 准备安装新的 Git
 	    call :install_git
-            ping 127.0.0.1 -n 2 > nul
+            ping 127.0.0.1 -n 2 >nul
 	    echo Git 安装完成
         )
     )
@@ -210,15 +225,15 @@ if %errorlevel% equ 0 (
     if exist "%ProgramFiles%\Git\bin\git.exe" (
         echo 在默认安装目录中找到 Git
         echo 准备添加到PATH
-        ping 127.0.0.1 -n 2 > nul
+        ping 127.0.0.1 -n 2 >nul
 	set PATH=%PATH%;C:\Program Files\Git\bin
-        ping 127.0.0.1 -n 2 > nul
+        ping 127.0.0.1 -n 2 >nul
         echo 添加 PATH 完成
     ) else (
         echo 在默认安装目录中没有找到 Git
         echo 准备安装新的 Git
         call :install_git
-        ping 127.0.0.1 -n 2 > nul
+        ping 127.0.0.1 -n 2 >nul
         echo Git 安装完成
     )
 )
@@ -278,9 +293,9 @@ echo 准备克隆 092wb 项目
 for %%i in (%mirrors%) do (
     echo Trying to clone from %%i%user%/%repo%.git
     if "%%i"=="https://github.com/" (
-        git clone %%i%user%/%repo%.git "%Project_DL%\092wb"
+        git clone %%i%user%/%repo%.git "%Project_DL%\%repo%"
     ) else (
-        git clone --config http.sslVerify=false %%i%user%/%repo%.git "%Project_DL%\092wb"
+        git clone --config http.sslVerify=false %%i%user%/%repo%.git "%Project_DL%\%repo%"
     )
 
     if !ERRORLEVEL! == 0 (
@@ -329,7 +344,7 @@ goto :eof
 echo 准备清空用户目录
 (
 DEL /F /A /Q "%UserDir%\*.*"
-echo "延迟 2 秒" > nul
+echo "延迟 2 秒" >nul
 ping -n 2 127.0.0.1>nul
 ) & if !ERRORLEVEL! == 0 (
     echo 清空 build and lua 目录成功
@@ -339,7 +354,7 @@ ping -n 2 127.0.0.1>nul
     ping -n 2 127.0.0.1>nul
 )
 
-for /f "delims=" %%a in ('dir /s /ad /b "%UserDir%" ^| sort /r') do rd /s /q "%%a" > nul
+for /f "delims=" %%a in ('dir /s /ad /b "%UserDir%" ^| sort /r') do rd /s /q "%%a" >nul
 if !ERRORLEVEL! == 0 (
     echo 清空用户目录成功
     ping -n 2 127.0.0.1>nul
@@ -389,10 +404,10 @@ echo 用户目录更新成功
 ping -n 2 127.0.0.1>nul
 
 
-if exist "%Project_DL%\Git-2.40.1-64-bit.exe" (
-    DEL "%Project_DL%\Git-2.40.1-64-bit.exe"
+if exist "%Project_DL%\Git-2.41.0-64-bit.exe" (
+    DEL "%Project_DL%\Git-2.41.0-64-bit.exe"
 ) else (
-    echo 无Git-2.40.1-64-bit.exe >nul
+    echo 无Git-2.41.0-64-bit.exe >nul
 )
 
 if exist "%Project_DL%\weasel-0.14.3.0-installer.exe" (
@@ -514,19 +529,19 @@ goto :eof
 set "weasel_count=0"
 tasklist | find /i "WeaselDeployer.exe"  >nul 2>&1
 if errorlevel 1 (
-    echo WeaselDeployer.exe is not running. > nul
+    echo WeaselDeployer.exe is not running. >nul
     ping -n 2 127.0.0.1 >nul
     set /a weasel_count+=1
     if %weasel_count% equ 10 (
-        echo Failed to terminate WeaselDeployer.exe. > nul
+        echo Failed to terminate WeaselDeployer.exe. >nul
         exit /b
     )
     goto checkProcess
 ) else (
-    echo WeaselDeployer.exe is running. Terminating the process... > nul
+    echo WeaselDeployer.exe is running. Terminating the process... >nul
     ping -n 1 127.0.0.1 >nul
     taskkill /f /t /im WeaselDeployer.exe  >nul 2>&1
-    echo WeaselDeployer.exe has been terminated. > nul
+    echo WeaselDeployer.exe has been terminated. >nul
     exit /b
 )
 goto :eof
@@ -534,12 +549,18 @@ goto :eof
 
 :install_git
 echo 未安装 Git, 准备执行安装 
-curl -o %Project_DL%\Git-2.40.1-64-bit.exe -L "https://mirrors.tuna.tsinghua.edu.cn/github-release/git-for-windows/git/LatestRelease/Git-2.40.1-64-bit.exe"
+curl -o %Project_DL%\Git-2.41.0-64-bit.exe -L "https://ghproxy.com/https://github.com/git-for-windows/git/releases/download/v2.41.0.windows.1/Git-2.41.0-64-bit.exe"  
+
+if not exist "%Project_DL%\Git-2.41.0-64-bit.exe" (
+    echo 无Git-2.41.0-64-bit.exe >nul
+    exit
+)
+
 echo 正在安装 Git, 所需时间较长, 请耐心等待...
-start /wait "" %Project_DL%\Git-2.40.1-64-bit.exe /VERYSILENT
+start /wait "" %Project_DL%\Git-2.41.0-64-bit.exe /VERYSILENT
 set PATH=%PATH%;C:\Program Files\Git\bin
 git --version >nul 2>nul
-ping 127.0.0.1 -n 2 > nul
+ping 127.0.0.1 -n 2 >nul
 if %errorlevel% equ 0 (
     echo GIT 安装成功!
 ) else (
@@ -1008,7 +1029,7 @@ goto :eof
 echo 结束算法服务
 TASKKILL /F /IM WeaselServer.exe  >nul 2>&1 
 echo 准备清理
-ping 127.0.0.1 -n 2 -w 1000 > nul
+ping 127.0.0.1 -n 2 -w 1000 >nul
 RD /S /Q "%Project_DL%"  >nul 2>&1
 echo 清理完成
 goto :eof
