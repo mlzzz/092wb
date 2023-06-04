@@ -15,7 +15,7 @@ if ! command -v git &>/dev/null; then
     echo "找不到 Git，请确保已经安装 Git。"
     exit
 fi
-echo "环境检测通过! \n执行下一步"
+echo -e "环境检测通过! \n执行下一步"
 
 rime_dir="${HOME}/Library/Rime"
 schema_file="${rime_dir}/092wb.schema.yaml"
@@ -59,11 +59,11 @@ clone_Project(){
       fi
   
       if [ $? -eq 0 ]; then
-          echo "克隆成功!\nClone success from $mirror$user/$repo.git"
+          echo -e "克隆成功!\nClone success from $mirror$user/$repo.git"
           success=true
           break
       else
-          echo "克隆失败，尝试下一个镜像地址\nClone failed from $mirror$user/$repo.git"
+          echo -e "克隆失败，尝试下一个镜像地址\nClone failed from $mirror$user/$repo.git"
       fi
   done
   
@@ -433,7 +433,7 @@ backup(){
 
 mkdir -p "$HOME/Desktop/鼠须管备份"
 cp -rf "$HOME/Library/Rime" "$HOME/Desktop/鼠须管备份/"
-echo "备份已完成\n备份位置：桌面/鼠须管备份"
+echo -e "备份已完成\n备份位置：桌面/鼠须管备份"
 exit
 
 }
