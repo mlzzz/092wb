@@ -17,10 +17,10 @@ if %errorLevel% == 0 (
     exit
 )
 
-set folderPath=C:\Program Files (x86)
-set rime_folder=Rime
-set weasel_server=WeaselServer.exe
-set Project_DL=C:\Users\%USERNAME%\Downloads\092DL_temp
+set "folderPath=C:\Program Files (x86)"
+set "rime_folder=Rime"
+set "weasel_server=WeaselServer.exe"
+set "Project_DL=C:\Users\%USERNAME%\Downloads\092DL_temp"
 if not exist "%Project_DL%" mkdir "%Project_DL%"
 
 set mirrors=https://ghproxy.com/https://github.com/ ^
@@ -40,16 +40,16 @@ set raw_mirrors=https://ghproxy.com/https://raw.githubusercontent.com/ ^
     https://github.com/https://raw.githubusercontent.com/
 
 
-set user=mlzzz
-set repo=092wb
-set weasel_user=rime
-set weasel_repo=weasel
-set version=0.14.3
-set weasel_name=weasel-0.14.3.0-installer
+set "user=mlzzz"
+set "repo=092wb"
+set "weasel_user=rime"
+set "weasel_repo=weasel"
+set "version=0.14.3"
+set "weasel_name=weasel-0.14.3.0-installer"
 
-set mb=%repo%
-set Project_092_Dir=%Project_DL%\%mb%
-set tables=%Project_092_Dir%
+set "mb=%repo%"
+set "Project_092_Dir=%Project_DL%\%mb%"
+set "tables=%Project_092_Dir%"
 
 call :path_UD  >nul 2>&1
 set "schema_file=%UserDir%\092wb.schema.yaml"
@@ -169,25 +169,25 @@ call :clover
 goto :eof
 
 :switch_dicts_092k
-set dict_dir=dicts
-set dict_file_name=092K.dict
-set dict_name=092K
+set "dict_dir=dicts"
+set "dict_file_name=092K.dict"
+set "dict_name=092K"
 echo 准备更换^&更新词库
 call :dictionarys
 goto :eof
 
 :switch_dicts_092p
-set dict_dir=dicts
-set dict_file_name=092P.dict
-set dict_name=092P
+set "dict_dir=dicts"
+set "dict_file_name=092P.dict"
+set "dict_name=092P"
 echo 准备更换^&更新词库
 call :dictionarys
 goto :eof
 
 :switch_dicts_092
-set dict_dir=092
-set dict_file_name=092wb.dict
-set dict_name=092wb
+set "dict_dir=092"
+set "dict_file_name=092wb.dict"
+set "dict_name=092wb"
 echo 准备更换^&更新词库
 call :dictionarys
 goto :eof
@@ -208,7 +208,7 @@ if %errorlevel% equ 0 (
 	    echo 在默认安装目录中找到 Git
 	    echo 准备添加到PATH
             ping 127.0.0.1 -n 2 >nul
-	    set PATH=%PATH%;C:\Program Files\Git\bin
+	    set "PATH=%PATH%;C:\Program Files\Git\bin"
             ping 127.0.0.1 -n 2 >nul
 	    echo 添加 PATH 完成
         ) else (
@@ -226,7 +226,7 @@ if %errorlevel% equ 0 (
         echo 在默认安装目录中找到 Git
         echo 准备添加到PATH
         ping 127.0.0.1 -n 2 >nul
-	set PATH=%PATH%;C:\Program Files\Git\bin
+	set "PATH=%PATH%;C:\Program Files\Git\bin"
         ping 127.0.0.1 -n 2 >nul
         echo 添加 PATH 完成
     ) else (
@@ -245,7 +245,7 @@ if "%ERRORLEVEL%"=="0" (
 REM echo 检测到已安装小狼毫
 ) else (
    if exist "%folderPath%\%rime_folder%" (
-       set count=0
+       set "count=0"
        for /d %%i in ("%folderPath%\%rime_folder%\*") do (
            set /a count+=1
        )
@@ -388,12 +388,12 @@ md "%UserDir%\lua\ace\lib"
 
 echo 准备添加092方案
 (
-xcopy /D /Y %tables%\092\spelling\*.bin "%UserDir%\build\"
+xcopy /D /Y "%tables%\092\spelling\*.bin" "%UserDir%\build\"
 
-xcopy /D /Y %tables%\092\*.yaml "%UserDir%"
-xcopy /D /Y %tables%\092\*.lua "%UserDir%"
-xcopy /D /Y %tables%\092\lua\ace\*.lua "%UserDir%\lua\ace"
-xcopy /D /Y %tables%\092\lua\ace\lib\*.lua "%UserDir%\lua\ace\lib"
+xcopy /D /Y "%tables%\092\*.yaml" "%UserDir%"
+xcopy /D /Y "%tables%\092\*.lua" "%UserDir%"
+xcopy /D /Y "%tables%\092\lua\ace\*.lua" "%UserDir%\lua\ace"
+xcopy /D /Y "%tables%\092\lua\ace\lib\*.lua" "%UserDir%\lua\ace\lib"
 
 DEL /F /A /Q "%UserDir%\squirrel.custom.yaml"
 )  >nul 2>&1
@@ -558,7 +558,7 @@ if not exist "%Project_DL%\Git-2.41.0-64-bit.exe" (
 
 echo 正在安装 Git, 所需时间较长, 请耐心等待...
 start /wait "" %Project_DL%\Git-2.41.0-64-bit.exe /VERYSILENT
-set PATH=%PATH%;C:\Program Files\Git\bin
+set "PATH=%PATH%;C:\Program Files\Git\bin"
 git --version >nul 2>nul
 ping 127.0.0.1 -n 2 >nul
 if %errorlevel% equ 0 (
@@ -754,7 +754,7 @@ goto :eof
 REM 词库
 :clover
 echo 准备添加 clover
-xcopy /D /Y %tables%\clover\*.yaml "%UserDir%"  >nul 2>&1
+xcopy /D /Y "%tables%\clover\*.yaml" "%UserDir%"  >nul 2>&1
 ping -n 2 127.0.0.1 >nul
 echo 添加 clover 成功
 ping -n 2 127.0.0.1 >nul
@@ -849,7 +849,7 @@ goto :eof
 :end_of_script
 echo 词库 %dict_name% 下载成功!
 ping -n 2 127.0.0.1 >nul
-xcopy /D /Y %Project_DL%\%dict_file_name%.yaml "%UserDir%"  >nul 2>&1
+xcopy /D /Y "%Project_DL%\%dict_file_name%.yaml" "%UserDir%"  >nul 2>&1
 
 echo 准备切换为 %dict_name% 词库
 if "%dict_dir%"=="092" (
