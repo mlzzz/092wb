@@ -304,8 +304,8 @@ base() {
     mkdir $HOME/.local/share/fonts
   fi
 
-  if [ -f $HOME/.local/share/fonts/092.otf ]; then
-    rm -rf $HOME/.local/share/fonts/092.otf
+  if [ -f $HOME/.local/share/fonts/092etymon.otf ]; then
+    rm -rf $HOME/.local/share/fonts/092etymon.otf
   fi
 
   sudo cp -rf $Project_DL/$repo/fonts/*.otf $HOME/.local/share/fonts

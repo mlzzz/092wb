@@ -60,7 +60,7 @@ set "temp_file=%UserDir%\temp.yaml"
 
 set "font=%SystemRoot%\Fonts"
 set "fontdir=%tables%\fonts"
-set "etymon=092.otf"
+set "etymon=092etymon.otf"
 set "msyhfont=MSYH.TTC"
 set "fontkey=HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts"
 set "fallback=HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\LanguagePack\SurrogateFallback"
@@ -1062,21 +1062,21 @@ copy /y "%fontdir%\%etymon%" "%font%\%etymon%" >nul 2>&1
 if errorlevel 1 goto error
 
 echo 修改注册表
-reg add "%fontkey%" /v "092 (TrueType)" /d "%etymon%" /f >nul 2>&1
+reg add "%fontkey%" /v "092etymon (TrueType)" /d "%etymon%" /f >nul 2>&1
 
-reg add "%fallback%" /v "Plane16" /d "092字根专用" /f >nul 2>&1
-reg add "%fallback%\Microsoft YaHei" /v "Plane16" /d "092字根专用" /f >nul 2>&1
+reg add "%fallback%" /v "Plane16" /d "092etymon" /f >nul 2>&1
+reg add "%fallback%\Microsoft YaHei" /v "Plane16" /d "092etymon" /f >nul 2>&1
 REM 遍历 SurrogateFallback 已有的字体，为每个字体添加相应的 Planes 支持
 for /f "tokens=*" %%a in ('reg query "%fallback%"') do (
 	set "str=%%a"
 	if /i "!str:~0,4!"=="HKEY" (
 		reg query "%%a" /v "Plane16" >nul 2>&1
-		if errorlevel 1 reg add "%%a" /v "Plane16" /d "092字根专用" /f >nul 2>&1
+		if errorlevel 1 reg add "%%a" /v "Plane16" /d "092etymon" /f >nul 2>&1
 	)
 )
 
-reg query "%linkkey%" /v "092" >nul 2>&1
-if errorlevel 1 reg add "%linkkey%" /v "092" /t REG_MULTI_SZ /d "MICROSS.TTF,108,122\0MICROSS.TTF\0SIMSUN.TTC,SimSun\0MSGOTHIC.TTC,MS UI Gothic" /f >nul 2>&1
+reg query "%linkkey%" /v "092etymon" >nul 2>&1
+if errorlevel 1 reg add "%linkkey%" /v "092etymon" /t REG_MULTI_SZ /d "MICROSS.TTF,108,122\0MICROSS.TTF\0SIMSUN.TTC,SimSun\0MSGOTHIC.TTC,MS UI Gothic" /f >nul 2>&1
 echo 注册表修改成功
 goto :eof
 
