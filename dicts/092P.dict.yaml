@@ -4,7 +4,7 @@
 # 李诗歌维护
 ---
 name: 092P
-version: "20230510"
+version: "20230608"
 #字典初始排序，可選original或by_weight
 sort: original
 columns:
@@ -40422,6 +40422,7 @@ DPL	dplu
 感到	draj
 碑刻	drao
 咸蒜	draw
+左撇子	drb
 大打出手	drbc
 碑阴	drbe
 咸阳	drbj
@@ -89702,6 +89703,7 @@ IELTS	iels
 㴣	iig
 小豆	iiga
 江湖不是打打杀杀，江湖是人情世故	iigd
+沆瀣一气	iige
 小青	iige
 小球	iigf
 污染环境	iigf
@@ -183460,6 +183462,7 @@ RPG	rpgu
 接杯举觞	rscq
 共患难	rscr
 打鱼	rsct
+摸鱼	rsct
 打叉	rscu
 打柴	rscx
 拉丁文	rscy
@@ -203886,6 +203889,7 @@ TOSHIBA	tosa
 自挂东南枝	tras
 𰪟	trat
 稀莶	traw
+右撇子	trb
 𥸓	trbb
 𡦠	trbf
 右耳	trbg
@@ -255780,5 +255784,5 @@ x	zzx
 y	zzy
 z	zzz
 092修订版	zzz
-20230408宋天 zzz
+20230608 zzz
 8:00	zzz
