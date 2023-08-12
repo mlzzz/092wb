@@ -1,4 +1,5 @@
-## Windows & Mac
+## 交流群：7390600
+## Windows & Mac & Linux
 
 ## 依赖:
 
@@ -39,13 +40,13 @@ Windows搜索 `cmd` 右键以 `管理运行cmd` 后执行：
 - 第一次安装必须使用参数 `092`且参数 `092` 必须在最所有参数的最前面, `c` 参数必须在所有参数的最后面
 
 ```batch
-curl -O https://raw.iqiq.io/mlzzz/092wb/main/windows-install.bat && call windows-install.bat 092
+curl -O https://ghproxy.com/https://raw.githubusercontent.com/mlzzz/092wb/main/windows-install.bat && call windows-install.bat 092
 ```
 
 Mac 按 cmd + 空格 搜索 terminal 回车后执行：
 
 ```shell
-curl -O https://raw.iqiq.io/mlzzz/092wb/main/macOS-install.sh && sh macOS-install.sh 092
+curl -O https://ghproxy.com/https://raw.githubusercontent.com/mlzzz/092wb/main/macOS-install.sh && sh macOS-install.sh 092
 ```
 
 Linux
@@ -69,7 +70,7 @@ sudo pacman -S curl
 第二步
 
 ```shell
-curl -O https://raw.iqiq.io/mlzzz/092wb/main/linux-install.sh && bash linux-install.sh 092
+curl -O https://ghproxy.com/https://raw.githubusercontent.com/mlzzz/092wb/main/linux-install.sh && bash linux-install.sh 092
 ```
 
 例一：我想要使用 092 默认英文 我还想让它竖排显示并且开启拆分提示
