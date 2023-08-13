@@ -8,6 +8,7 @@ local charsets = {
   { first = 0x2CEB0, last = 0x2EBEF }, -- ExtF
   { first = 0x30000, last = 0x3134F }, -- ExtG
   { first = 0x31350, last = 0x323AF }, -- ExtH
+  { first = 0x2EBF0, last = 0x2EE4A }, -- ExtI
   { first = 0xF900, last = 0xFAFF }, -- CJK 兼容象形文字
   { first = 0x2F800, last = 0x2FA1F }, -- Compatible Suplementary
   { first = 0x2F00, last = 0x2FD5 }, ---康熙字典部首
