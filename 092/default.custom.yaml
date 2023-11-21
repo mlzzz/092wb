@@ -10,3 +10,9 @@ patch:
 #    - {schema: clover}
 #    - {schema: 092wb_U}
 #    - {schema: py}
+
+  switcher/abbreviate_options: true
+  switcher/caption: "〔方案选单〕"
+  switcher/fold_options: true
+  switcher/hotkeys:  # 切换输入法快捷键
+    - "Control+Shift+grave" #  Ctrl + Shift + ` 
