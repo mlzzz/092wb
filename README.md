@@ -39,4 +39,4 @@
 + **092五笔**：主体方案
 + [四叶草拼音](https://github.com/yyangdid/rime-cloverpinyin)：用于全拼使用者
 ## 下载地址：
- + [永硕E盘](http://wp02.ys168.com/)
+ + [永硕E盘](http://092wb.ys168.com/)
