@@ -2,10 +2,6 @@
 
 ## 简介:
 >092输入法即09输入法第二代，由「行走的风景」发明，以其惊人的词组离散能力和高速输入成绩，震惊跟打界。可惜因风景、狂练等老一辈高手名宿的退隐，〇九大法又略显式微。后又有小友、凌风等年轻高手脱颖而出，再现中兴之象。
-## 目录
-- [功能](https://github.com/liang-0131/092wb/blob/main/README.md#%E6%9C%AC%E6%96%B9%E6%A1%88%E4%B8%8E%E5%8E%9F%E6%96%B9%E6%A1%88%E5%85%B7%E4%BD%93%E6%9C%89%E5%A6%82%E4%B8%8B%E5%8C%BA%E5%88%AB)
-- [下载地址](https://github.com/liang-0131/092wb/blob/main/README.md#%E4%B8%8B%E8%BD%BD%E5%9C%B0%E5%9D%80)
-- [新增&删除词条](https://github.com/liang-0131/092wb/blob/main/README.md#%E6%96%B0%E5%A2%9E%E5%88%A0%E9%99%A4%E8%AF%8D%E6%9D%A1)
 ## 功能&跨平台支持
 |功能|快捷键|说明|windows|Mac|Linux|Android|iOS|
 |:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
@@ -37,6 +33,6 @@
 |切换方案|Ctrl+`|任意大写|✔|✔|✔|✔|✔|
 ## 内置方案
 + **092五笔**：主体方案
-+ [四叶草拼音](https://github.com/yyangdid/rime-cloverpinyin)：用于全拼使用者
++ [四叶草拼音](https://github.com/fkxxyz/rime-cloverpinyin)：用于全拼使用者
 ## 下载地址：
  + [永硕E盘](http://092wb.ys168.com/)
