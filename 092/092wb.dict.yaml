@@ -1,24 +1,25 @@
 # Rime dictionary
 # encoding: utf-8
+# 2023年05月07日
 ---
 name: 092wb
 version: "2.0"
 sort: by_weight
 columns:
-- text
-- code
-- weight
-- stem
+  - text
+  - code
+  - weight
+  - stem
 encoder:
-exclude_patterns:
-- '^z.*$'
-rules:
-- length_equal: 2
-formula: "AaAbBaBb"
-- length_equal: 3
-formula: "AaBaCaCb"
-- length_in_range: [4, 32]
-formula: "AaBaCaZa"
+  exclude_patterns:
+    - '^z.*$'
+  rules:
+    - length_equal: 2
+      formula: "AaAbBaBb"
+    - length_equal: 3
+      formula: "AaBaCaCb"
+    - length_in_range: [4, 32]
+      formula: "AaBaCaZa"
 ...
 从	a	51032990
 到	a	51032980
