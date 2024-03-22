@@ -1,6 +1,6 @@
 # Rime dictionary
 # encoding: utf-8
----	51033190
+---
 name: 092wb
 version: "2.0"
 sort: by_weight
@@ -12,7 +12,7 @@ columns:
 encoder:
 exclude_patterns:
 - '^z.*$'
-rules:	51033070
+rules:
 - length_equal: 2
 formula: "AaAbBaBb"
 - length_equal: 3
