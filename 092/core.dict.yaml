@@ -1,3 +1,4 @@
+# 自定义过滤，只有放入此词库中的字才会显示在候选项中。
 name: core
 version: "1.0"
 sort: original

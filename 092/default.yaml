@@ -3,16 +3,50 @@
 
 config_version: '0.40'
 
+# 方案列表
 schema_list:
   - schema: 092wb
+#    - schema: clover
+#    - schema: 092wb_U
+#    - schema: py
 
 switcher:
   caption: 〔方案选单〕
   hotkeys:
     - Control+Shift+grave
 
-  fold_options: true
+  fold_options: true  # 呼出时是否折叠，多方案时建议折叠 true ，一个方案建议展开 false
+  abbreviate_options: true      # 折叠时是否缩写选项
+  option_list_separator: ' / '  # 折叠时的选项分隔符
 
+# 菜单
+menu:
+  page_size: 10  # 候选词个数
+  # alternative_select_labels: [ ①, ②, ③, ④, ⑤, ⑥, ⑦, ⑧, ⑨, ⑩ ]  # 修改候选项标签
+  # alternative_select_keys: ASDFGHJKL  # 如编码字符占用数字键，则需另设选字键
+
+# 符号
+punctuator:
+  full_shape:
+    __include: punctuation:/full_shape
+  half_shape:
+    __include: punctuation:/half_shape
+
+# 快捷键
+key_binder:
+  bindings:
+    __patch:
+      - 092wb_key_bindings:/092wb_hotkeys
+
+recognizer:
+  patterns:
+    punct: "^zi([0-9]0?|[A-Za-z]+)$"          # 特殊符号引导规则
+    reverse_lookup: "^z[a-z]*'?$"             # 反查规则
+    uppercase: "[A-Z][-_+.'0-9A-Za-z]*$"
+    url: "^(www[.]|https?:|ftp[.:]|mailto:|file:).*$|^[a-z]+[.].+$"
+    helper: '^aid$'
+
+# 功能键行为
 ascii_composer:
   good_old_caps_lock: true
   switch_key:

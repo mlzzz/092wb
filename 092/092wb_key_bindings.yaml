@@ -1,0 +1,34 @@
+# Rime key bindings
+# encoding: utf-8
+
+092wb_hotkeys:  # 092使用的快捷键
+  __append:
+    - {accept: minus, send: Page_Up, when: has_menu}    # 上翻页
+    - {accept: equal, send: Page_Down, when: has_menu}  # 下翻页
+    - {accept: semicolon, send: 2, when: has_menu}      # 2选重
+    - {accept: apostrophe, send: 3, when: has_menu}     # 3选重
+    - {accept: space, send: Escape, when: composing}    # 空格清码
+    - {accept: space, send: space, when: has_menu}
+    - {accept: "Control+Shift+f", toggle: zh_trad, when: always}          # 繁简
+    - {accept: "Control+Shift+h", toggle: new_spelling, when: always}     # 拆分
+    - {accept: "Control+Shift+j", toggle: new_hide_pinyin, when: always}  # 拼音
+    - {accept: "Control+Shift+u", toggle: extended_char, when: always}    # 超集切换--core过滤
+    - {accept: "Control+Shift+m", toggle: show_es, when: always}          # emoji
+# mac兼容（大写）
+    - {accept: "Control+Shift+F", toggle: zh_trad, when: always}          # 繁简
+    - {accept: "Control+Shift+H", toggle: new_spelling, when: always}     # 拆分
+    - {accept: "Control+Shift+J", toggle: new_hide_pinyin, when: always}  # 拼音
+    - {accept: "Control+Shift+U", toggle: extended_char, when: always}    # 超集切换--core过滤
+    - {accept: "Control+Shift+M", toggle: show_es, when: always}          # emoji
+    - {accept: "Shift+space", toggle: full_shape, when: always}           # 全角切换用于中文排版
+    - {accept: "Control+period", toggle: ascii_punct, when: always}       # 中文模式下使用英文标点
+
+
+# macOS_editing:  # mac上使用的键
+#  __append:
+#   - { when: has_menu, accept: Left, send: Up }       # Mac下注释使方向键可用
+#   - { when: has_menu, accept: Right, send: Down }    # Mac下注释使方向键可用
+#   - {accept: Return, send: Escape, when: composing}  # 回车清码关
+#   - {accept: Return, send: Escape, when: has_menu}   # 回车清码关
+
+  

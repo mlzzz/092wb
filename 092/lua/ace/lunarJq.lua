@@ -1,4 +1,4 @@
-﻿
+﻿--- 来源：https://github.com/yanhuacuo/98wubi-tables
 --*******农历节气计算部分
 --========角度变换===============
 local rad = 180*3600/math.pi --每弧度的角秒数

@@ -1,15 +1,9 @@
 # Rime dictionary
 # encoding: utf-8
 
-#-----单字搜索： #_1
-#-----系统词拼音搜索：#_2
-#-----新增字拼音在搜索：#_3
-
-# A minimal Pinyin dictionary for simplified Chinese script
-#
-# Derived from android open source project:
-# http://android.git.kernel.org/?p=platform/packages/inputmethods/PinyinIME.git
-#
+# ----- 单字搜索： #_1
+# ----- 系统词拼音搜索：#_2
+# ----- 新增字拼音在搜索：#_3
 
 ---
 name: py

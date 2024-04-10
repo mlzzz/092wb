@@ -4,6 +4,8 @@
 name: 092wb
 version: "2.0"
 sort: by_weight
+import_tables:
+  - 092wb_U
 columns:
   - text
   - code
@@ -101886,4 +101888,3 @@ Y染色体	yiqw	50017940
 认识论	yyyw	50000030
 谢谢	yyyy	50000020
 谆谆	yyyy	50000010
-	50000000

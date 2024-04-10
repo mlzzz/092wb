@@ -1,10 +1,11 @@
+# 来自中文输入法群：938020953 中的“原版同文lua自定義字集過濾腳本”文件
+# 此方案文件非必要不编辑
 # Rime schema
 # encoding: utf-8
-#此方案文件不可编辑
 
 schema:
   schema_id: core
-  name: 字典
+  name: 自定义过滤
   version: "1.0"
   dependencies:
 
@@ -37,7 +38,6 @@ engine:
     - uniquifier
 
 speller:
-  #alphabet: zyxwvutsrqponmlkjihgfedcba
   alphabet: 1
 
 translator:

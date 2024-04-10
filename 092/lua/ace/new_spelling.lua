@@ -1,3 +1,5 @@
+--- 拆分提示
+--- 来源：https://github.com/yanhuacuo/98wubi-tables
 local basic = require('ace/lib/basic')
 local map = basic.map
 local index = basic.index

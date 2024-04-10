@@ -1,3 +1,5 @@
+--- 来自 中文输入法群：938020953 中的“原版同文lua自定義字集過濾腳本”文件
+
 local charsets = {
   { first = 0x4E00, last = 0x9FFF }, -- CJK 统一表意符号
   { first = 0x3400, last = 0x4DBF }, -- ExtA
