@@ -6,7 +6,7 @@ recipe:
   description: >-
     完整安装、更新
 install_files: >-
-  *.*
+  ./*.*
   opencc/*.*
   lua/ace/*.*
   lua/ace/lib/*.*
