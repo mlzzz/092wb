@@ -6,5 +6,5 @@ recipe:
   description: >-
     拆分提示安装、更新
 install_files: >-
-  092/wb_spelling.dict.yaml
-  092/wb_spelling.schema.yaml
+  wb_spelling.dict.yaml
+  wb_spelling.schema.yaml

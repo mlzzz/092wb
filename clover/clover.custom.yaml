@@ -1,8 +1,0 @@
-patch:
-  "style/font_face:": "092WB-V"
-  "style/text_orientation": horizontal
-  "style/fullscreen": false
-  "style/inline_preedit": true
-#  "style/preedit_type": composition
-  "style/horizontal": true
-  "style/font_point": 19

@@ -6,5 +6,5 @@ recipe:
   description: >-
     opencc安装、更新
 install_files: >-
-  092/opencc/*.*
+  opencc/*.*
 
