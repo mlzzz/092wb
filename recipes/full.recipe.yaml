@@ -6,7 +6,24 @@ recipe:
   description: >-
     完整安装、更新
 install_files: >-
-  *.*
+  092wb.dict.yaml
+  092wb.schema.yaml
+  092wb_U.dict.yaml
+  092wb_U.schema.yaml
+  092wb_key_bindings.yaml
+  README.md
+  core.dict.yaml
+  core.schema.yaml
+  default.yaml
+  punctuation.yaml
+  py.dict.yaml
+  py.schema.yaml
+  rime.lua
+  squirrel.yaml
+  symbols.yaml
+  wb_spelling.dict.yaml
+  wb_spelling.schema.yaml
+  weasel.yaml
   opencc/*.*
   lua/ace/*.*
   lua/ace/lib/*.*
