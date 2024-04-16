@@ -1,0 +1,12 @@
+# encoding: utf-8
+---
+recipe:
+  Rx: recipes/full
+  args:
+  description: >-
+    完整安装、更新
+install_files: >-
+  092wb/*.*
+  opencc/*.*
+  lua/*.*
+  lua/lib/*.*
