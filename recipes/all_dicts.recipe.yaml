@@ -6,4 +6,4 @@ recipe:
   description: >-
     所有词库安装、更新
 install_files: >-
-  092wb/*.dict.yaml
+  092/*.dict.yaml

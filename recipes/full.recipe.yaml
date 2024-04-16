@@ -6,7 +6,7 @@ recipe:
   description: >-
     完整安装、更新
 install_files: >-
-  092wb/*.*
-  opencc/*.*
-  lua/*.*
-  lua/lib/*.*
+  092/*.*
+  092/opencc/*.*
+  092/lua/*.*
+  092/lua/lib/*.*
