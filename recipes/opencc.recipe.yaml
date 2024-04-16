@@ -1,0 +1,10 @@
+# encoding: utf-8
+---
+recipe:
+  Rx: recipes/opencc
+  args:
+  description: >-
+    opencc安装、更新
+install_files: >-
+  opencc/*.*
+

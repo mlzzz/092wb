@@ -1,4 +1,5 @@
--- select_character_processor: 以词定字
+--- 以词定字，默认为左右中括号 [ ]
+--- 原脚本 https://github.com/BlindingDark/rime-lua-select-character
 select_character_processor = require("ace/select_character")
 
 core = require("ace/core_filter")
@@ -9,6 +10,7 @@ core = require("ace/core_filter")
 --      - "lua_translator@time_date"
 -----------------------------------
 
+--- 来源：https://github.com/yanhuacuo/98wubi-tables
 rv_var={ week_var="jphe",date_var="jahe",nl_var="pkdl",time_var="jfuj",jq_var="abet"}	--编码关键字修改
 new_spelling = require("ace/new_spelling")
 helper = require("ace/helper")
@@ -342,4 +344,25 @@ function time_date(input, seg)
 	longstring_translator(input, seg)
 	QueryLunar_translator(input, seg)
 	number_translator(input,seg)
+end
+
+
+-- 暴力 GC
+-- 详情 https://github.com/hchunhui/librime-lua/issues/307
+-- 这样也不会导致卡顿，那就每次都调用一下吧，内存稳稳的
+function force_gc()
+    -- collectgarbage()
+    collectgarbage("step")
+end
+
+-- 临时用的
+function debug_checker(input, env)
+    for cand in input:iter() do
+        yield(ShadowCandidate(
+            cand,
+            cand.type,
+            cand.text,
+            env.engine.context.input .. " - " .. env.engine.context:get_preedit().text .. " - " .. cand.preedit
+        ))
+    end
 end

@@ -40,7 +40,6 @@ engine:
     - reverse_lookup_translator
   filters:
     - simplifier
-    - reverse_lookup_filter@ci_reverse_lookup
     - uniquifier
 
 speller:
@@ -76,11 +75,11 @@ key_binder:
 recognizer:
   import_preset: default
   patterns:
-    punct: '^/([0-9]0?|[A-Za-z]+)$'
+    punct: '^zi([0-9]0?|[A-Za-z]+)$'
     reverse_lookup: "^z[a-z]*'?$"
   
-ci_reverse_lookup:
-  dictionary: 092wb.extended
+reverse_lookup:
+  dictionary: 092wb
   enable_completion: true
   tips: 〔五笔2〕  
 

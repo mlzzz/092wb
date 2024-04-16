@@ -1,0 +1,13 @@
+# encoding: utf-8
+---
+recipe:
+  Rx: recipes/all_dicts
+  args:
+  description: >-
+    所有词库安装、更新
+install_files: >-
+  092wb.dict.yaml
+  092wb_U.dict.yaml
+  core.dict.yaml
+  py.dict.yaml
+  wb_spelling.dict.yaml

@@ -1,0 +1,13 @@
+# Rime schema settings
+# encoding: utf-8
+
+schema:
+  schema_id: wb_spelling
+  name: "拆分提示"
+  version: "18.31"
+  author:
+    - Lua-table by Ace-Who
+  description: |
+
+translator:
+  dictionary: wb_spelling

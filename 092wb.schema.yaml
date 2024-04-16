@@ -2,64 +2,53 @@
 # encoding: utf-8
 schema:
   schema_id: 092wb
-  name: "五笔"
-  version: "6.0"
+  name: "092五笔"
+  version: "2024.04.07"
   author:
-    - 發明人 行走的风景
+    - 发明人 行走的风景
   description: |
-    五笔092版
-    碼表源自: 行走的风景
-    敲 z 鍵進入拼音反查
+    092五笔
   dependencies:   # 依赖
-    - py          # 反查
     - core        # 引入自定义过滤
+    - py          # 反查
+    - wb_spelling # 引入拆分
+
+
+# reset: 默认状态。注释掉后，切换窗口时不会重置到默认状态。
 switches:
   - name: ascii_mode
     reset: 0
+#    states: [ 中, Ａ ]
   - name: zh_trad
     reset: 0
 #    states: [ 简,繁 ]
   - name: new_spelling
     reset: 0
-#    states: [ 显,隐 ]  
-  - name: rvl_zhuyin
-    reset: 1
-#    states: [ 以形查音关,以形查音开 ]
-  - name: GB2312
-    reset: 0
-#    states: [ 扩,常 ]
-  - name: extended_char     # core自定义过滤开关
+#    states: [ 拆,隐 ]  
+  - name: extended_char     # core过滤开关
     reset: 1                          
-#    states: [ 滤, 放] 
-  - name: new_hide_pinyin
+#    states: [ 扩, 常] 
+  - name: new_hide_pinyin   # 显示读音
     reset: 1
-#    states: [ 音, 哑 ]
-  - name: single_char
-    reset: 0
-#    states: [ 词, 单 ]
+#    states: [ 音, 隐 ]
   - name: ascii_punct
     reset: 0
 #    states: [ 。，, ．， ]
-  - name: full_shape        # 全角符号/半角符号开关。注意，开启全角时英文字母亦为全角。 默认是半角模式
+  - name: full_shape        #默认是半角模式
     reset: 0
 #    states: [ 半, 全 ]
-  - name: show_es           # es-emoji
+  - name: show_es           # emoji
     reset: 0
 #    states: [ 😔, 😀 ] 
 engine:
   filters:
-    - lua_filter@core                # 加入此过滤，必须放到滤镜最上面
-    - simplifier@es_conversion       # Emoji与符号滤镜
-    - simplifier
-    - lua_filter@single_char
-    - "reverse_lookup_filter@ci_reverse_lookup"
-    - lua_filter@new_spelling@spelling
+    - lua_filter@core                          # 加入此过滤，必须放到滤镜最上面
+    - simplifier@es_conversion                 # Emoji与符号滤镜
+    - lua_filter@new_spelling@spelling         # 拆分滤镜
+    - simplifier@traditionalize                # 简繁切换
     - uniquifier
   processors:
     - ascii_composer
-#    - lua_processor@submit_text_processor
-#    - lua_processor@switch_processor
-#    - lua_processor@select_character_processor      # 以词定字
     - recognizer
     - key_binder
     - speller
@@ -70,129 +59,83 @@ engine:
   segmentors:
     - ascii_segmentor
     - matcher
-    - "affix_segmentor@mkst"
-    - "affix_segmentor@rvl_zhuyin"
-    - "affix_segmentor@rvlk1"
     - abc_segmentor
     - punct_segmentor
     - fallback_segmentor
   translators:
     - punct_translator
-    - reverse_lookup_translator
-    - "table_translator@rvlk1"
+    - reverse_lookup_translator             # 反查
     - table_translator
-    - "table_translator@fixed"
-    - "table_translator@mkst"
-    - "table_translator@rvl_zhuyin"
-    - "history_translator@history"
-    - "lua_translator@helper"
-    - "lua_translator@time_date"
+    - history_translator@repeat_last_input  # 上屏最后一次输入
+    - lua_translator@helper                 # 帮助
+    - lua_translator@time_date              # 时间、日期
+    - lua_translator@force_gc               # 暴力 GC
 speller:
-  auto_select: true
-  auto_clear: max_length
-  delimiter: "`"
-  max_code_length: 4
-  
+  auto_select: true               # 自动上屏
+  auto_clear: max_length          # 最大码长清屏
+  delimiter: "`"                  # 上屏时的音节间分音符
+  max_code_length: 4              # 最大码长
+
+# 主翻译器
 translator:
-  dictionary: 092wb.extended
-  db_class: tabledb
-  initial_quality: 100000
-  enable_charset_filter: false
-  enable_sentence: false
-  enable_encoder: false
-  encode_commit_history: false
-  max_phrase_length: 4
-  enable_completion: false
-  enable_user_dict: false
-  disable_user_dict_for_patterns:
+  dictionary: 092wb               # 翻译器将调取此字典文件
+  db_class: tabledb               # 设定用户词典类型，可设tabledb〔文本〕或userdb〔二进制〕
+  initial_quality: 100000         # 翻译器优先级
+  enable_charset_filter: false    # 自带字符集过滤 - 关
+  enable_sentence: false          # 句子输入模式 - 关
+  enable_encoder: false           # 编码提示 - 关
+  encode_commit_history: false    # 自动造词 - 关
+  max_phrase_length: 4            # 最大自动成词词长〔仅table_translator有效〕
+  enable_completion: false        # 提前显示尚未輸入完整码的字〔仅table_translator有效〕
+  enable_user_dict: false         # 是否开启用户词典（用户词典记录动态字词频，用户词）- 关
+  disable_user_dict_for_patterns: # 禁止某些编码录入用户词典
     - "^z.*$"
- 
-fixed:
-  __include: /translator
-  initial_quality: 1000
-  enable_encoder: true
-  enable_user_dict: true
- 
-mkst:
-  __include: /translator
-  initial_quality: 10
-  enable_sentence: true
-  prefix: '`'
-  tips: "〔精准造词〕"
-  tag: mkst
- 
-rvl_zhuyin:
-  __include: /translator
-  initial_quality: 10
-  enable_sentence: true
-  prefix: '~'
-  tips: "〔以形查音〕"
-  tag: zhuyin
- 
+
 reverse_lookup:
-  __include: /translator
-  dictionary: py
-  tips: "〔拼音反查〕"
+  dictionary: py           # 反查使用的拼音词库
+  prefix: "z"              # 反查前缀，以它为起点
+  suffix: "'"              # 反查后缀，以它为结点
+  tips: [反查]              # 反查时的提示信息
   preedit_format:
     - xform/([nl])v/$1ü/
     - xform/([nl])ue/$1üe/
     - xform/([jqxy])v/$1u/
-  tag: rvlk2
-    
-rvlk1:
-  __include: /reverse_lookup
-  prefix: "z"
-  tag: rvlk1
-  extra_tags:
-    - rvlk2  
-    
-ci_reverse_lookup:
-  dictionary: 092wb.extended
-  tips: "〔五笔滤镜〕"
-  tags:
-    - rvlk2
-    
- 
-simplifier:
+
+#  OpenCC 支持。
+#  github地址：https://github.com/BYVoid/OpenCC
+traditionalize:
   opencc_config: s2t.json      # 简 -> 繁
-  option_name: zh_trad
+  option_name: zh_trad         # 繁简开关
+  #  opencc_config: s2hk.json   # 繁 -> 香港
+  #  opencc_config: t2s.json   # 繁 -> 简
+  #  opencc_config: t2tw.json  # 繁 -> 台湾
+  #  opencc_config: t2hk.json  # 繁 -> 香港
+  #  opencc_config: s2tw.json  # 簡 -> 臺灣標準
+  #  opencc_config: s2twp.json # 簡 -> 臺灣片語
  
- 
-lua_reverse_db:
+lua_reverse_db:               # 拆分提示
   spelling: wb_spelling
   code: wb_spelling
- 
- 
-es_conversion:             # Emoji与符号滤镜
+
+# Emoji
+# 来源：https://github.com/rime/rime-emoji
+es_conversion:                # Emoji与符号滤镜
   opencc_config: es.json
   option_name: show_es
- 
- 
-recognizer:
-  patterns:
-    email: "^[A-Za-z][-_.0-9A-Za-z]*@.*$"
-    mkst: "^[a-y]*`[a-y`]*$"
-    punct: "^zv([0-9]0?|[A-Za-z]+)$"
-    rvlk1: "^z[a-z]*$"
-    rvlk2: "^z[a-z]*$"
-    uppercase: "[A-Z][-_+.'0-9A-Za-z]*$"
-    url: "^(www[.]|https?:|ftp[.:]|mailto:|file:).*$|^[a-z]+[.].+$"
-    zhuyin: "~[a-y]*?$"
-    helper: '^aid$'
-  
-history:
+
+repeat_last_input:    # 重复最后一次上屏
   input: z
   size: 1
   initial_quality: 1
- 
- 
-key_binder:
-  bindings:
-    __patch:
-      - 092wb.key_bindings:/092wb_hotkeys 
- 
+
 punctuator:
+  import_preset: default
   import_preset: symbols
-  
-menu:
-  page_size: 10  
+
+recognizer:
+  import_preset: default
+
+key_binder:
+  import_preset: default
+
+
