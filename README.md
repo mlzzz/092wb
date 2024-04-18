@@ -5,22 +5,17 @@
 ## 功能&跨平台支持
 |功能|快捷键|说明|windows|Mac|Linux|Android|iOS|
 |:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
-|拆分显隐|Ctrl+Shift+H|显示拆分|✔|✔|✔|✔|
-|注解|Ctrl+Shift+J|显示拆分、编码、拼音|✔|✔|✔|✔|
-|单字模式|Ctrl+Shift+K|只显单字|✔|✔|✔|✔|
-|超集|Ctrl+Shift+U|生僻字|✔|✔|✔|✔|
-|Emoji|Ctrl+Shift+M|:smile:|✔|✔|✔|✔|
-|以形查音|~键|五笔编码|✔|✔|✔|✔|
+|拆分显隐|Ctrl + Shift + H|显示拆分|✔|✔|✔|✔|
+|注解|Ctrl + Shift + J|显示拆分、编码、拼音|✔|✔|✔|✔|
+|超集|Ctrl + Shift + U|生僻字|✔|✔|✔|✔|
+|Emoji|Ctrl + Shift + M|:smile:|✔|✔|✔|✔|
 |大写金额|大写字母+数字|任意大写|✔|✔|✔|✔|✔|
 |拼音反查|z键|反查五笔编码|✔|✔|✔|✔|✔|
-|特殊符号|zv+编码|特殊符号|✔|✔|✔|✔|✔|
+|特殊符号|zi+编码|特殊符号|✔|✔|✔|✔|✔|
 |重复上屏|z键|重复上一次输入|✔|✔|✔|✔|✔|
-|撤销上屏|Alt+Backspace||✔|✔|✔|✔|✔|
+|撤销上屏|Alt + Backspace||✔|✔|✔|✔|✔|
 |繁简|Ctrl + Shift + F||✔|✔|✔|✔|✔|
-|精准造词|`键引导||✔|✔|✔|✔|✔|
-|删除造词|Shift　\|　Ctrl + Delete||✔|✔|✔|✔|✔|
 |上屏注释|Ctrl + Shift + Return||✔|✔|✔|✔|✔|
-|短语|大写字母+编码|任意大写|✔|✔|✔|✔|✔|
 |日期|jahe|日期|✔|✔|✔|✔|✔|
 |时间|jfuj|系统时间|✔|✔|✔|✔|✔|
 |节气|abet|24节气|✔|✔|✔|✔|✔|
@@ -28,11 +23,48 @@
 |全角|Shift + Space||✔|✔|✔|✔|✔|
 |英文标点|Shift + .|中文下输入英文标点|✔|✔|✔|✔|✔|
 |2 3选重|；‘|分号、引号|✔|✔|✔|✔|✔|
-|以词定字|[ ]|左右中括号|✔|✔|✔|✔|✔|
 |1-10选重|数字|数字1-10|✔|✔|✔|✔|✔|
-|切换方案|Ctrl+`|任意大写|✔|✔|✔|✔|✔|
-## 内置方案
-+ **092五笔**：主体方案
-+ [四叶草拼音](https://github.com/fkxxyz/rime-cloverpinyin)：用于全拼使用者
+|切换方案|Ctrl + Shift + `|任意大写|✔|✔|✔|✔|✔|
 ## 下载地址：
  + [永硕E盘](http://092wb.ys168.com/)
+
+## 东风破
+```shell
+curl -fsSL https://mirror.ghproxy.com/https://raw.githubusercontent.com/rime/plum/master/rime-install | bash
+# or
+curl -fsSL https://mirror.ghproxy.com/https://raw.githubusercontent.com/rime/plum/master/rime-install | bash
+```
+
+```shell
+cd plum
+```
+
+安装或更新所有文件
+```shell
+bash rime-install mlzzz/092wb@releases:recipes/full
+```
+
+安装或更新所有词库文件
+```shell
+bash rime-install mlzzz/092wb@releases:recipes/all_dicts
+```
+
+安装或更新opencc
+```shell
+bash rime-install mlzzz/092wb@releases:recipes/opencc
+```
+
+安装或更新拆分
+```shell
+bash rime-install mlzzz/092wb@private:recipes/spelling
+```
+
+第三方Rime前端，需在plum之用法前加上rime_frontend或rime_dir参数。 安装或更新所有文件
+```shell
+rime_frontend=fcitx-rime bash rime-install mlzzz/092wb@releases:recipes/full
+```
+
+或
+```shell
+rime_dir="$HOME/.config/fcitx/rime" bash rime-install mlzzz/092wb@private:recipes/full
+```
