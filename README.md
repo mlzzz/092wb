@@ -56,7 +56,7 @@ bash rime-install mlzzz/092wb@releases:recipes/opencc
 
 安装或更新拆分
 ```shell
-bash rime-install mlzzz/092wb@private:recipes/spelling
+bash rime-install mlzzz/092wb@releases:recipes/spelling
 ```
 
 第三方Rime前端，需在plum之用法前加上rime_frontend或rime_dir参数。 安装或更新所有文件
@@ -66,5 +66,5 @@ rime_frontend=fcitx-rime bash rime-install mlzzz/092wb@releases:recipes/full
 
 或
 ```shell
-rime_dir="$HOME/.config/fcitx/rime" bash rime-install mlzzz/092wb@private:recipes/full
+rime_dir="$HOME/.config/fcitx/rime" bash rime-install mlzzz/092wb@releases:recipes/full
 ```
