@@ -9,7 +9,6 @@ install_files: >-
   092wb.dict.yaml
   092wb.schema.yaml
   092wb_U.dict.yaml
-  092wb_U.schema.yaml
   092wb_key_bindings.yaml
   README.md
   core.dict.yaml
