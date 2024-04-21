@@ -42,15 +42,15 @@ global_ascii: false                        # 切换为 ascii 模式时，是否�
 # [style]
 # 字体；候选项、候选窗口的行为、布局及样式
 style:
-  color_scheme: purity_of_form_custom      # 默认配色方案
-  # color_scheme_dark: nord                # 深色模式下，Weasel 的配色方案，Windows 10 1809+ 可用
+  color_scheme: microsoft      # 默认配色方案
+  color_scheme_dark: nord                # 深色模式下，Weasel 的配色方案，Windows 10 1809+ 可用
 
   # 全局字体
   # 格式：字体1:起始码位:结束码位:字重:字形,字体2……，字体会依次 fallback
   # 详细设定请参考 <https://github.com/rime/weasel/wiki/字體設定>
-  font_face: "Segoe UI Emoji, Microsoft YaHei, SF Pro, Noto Color Emoji"
+  font_face: "NotFont, Noto Color Emoji SVG:1f1e0:1f1ff, Segoe UI Emoji:80, LXGW Wenkai Narrow, Microsoft Yahei, TH-Times, TH-tshyn-P0, TH-tshyn-P1, TH-tshyn-P2, TH-tshyn-P16, 全宋体-1, 全宋体-2, 全宋体-3, 全宋体-F, 全宋体-X, 全宋体(调和), 全宋体(等宽), 宋体, SimSun, SimSun-ExtB, SimSun-ExtG"
   label_font_face: "Microsoft YaHei"       # 标签字体
-  comment_font_face: "Microsoft YaHei"     # 注释字体
+  comment_font_face: "NotFont, Noto Color Emoji SVG:80, 092etymon, Segoe UI Emoji:80, LXGW Wenkai Narrow, Microsoft Yahei, 全宋体-1, 全宋体-2, 全宋体-3, 全宋体-F, 全宋体-X, 全宋体(调和), 全宋体(等宽)" # 注释字体
   font_point: 14                           # 全局字体字号
   label_font_point: 14                     # 标签字体字号，不设定 fallback 到 font_point
   comment_font_point: 13                   # 注释字体字号，不设定 fallback 到 font_point
