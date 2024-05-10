@@ -129,8 +129,8 @@ repeat_last_input:    # 重复最后一次上屏
   initial_quality: 1
 
 punctuator:
-  import_preset: default
-  #  import_preset: symbols
+  #  import_preset: default
+  import_preset: symbols
 
 recognizer:
   import_preset: default
