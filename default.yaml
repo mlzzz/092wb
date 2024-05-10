@@ -26,17 +26,17 @@ menu:
   # alternative_select_keys: ASDFGHJKL  # 如编码字符占用数字键，则需另设选字键
 
 # 符号
-#punctuator:
-#  full_shape:
-#    __include: punctuation:/full_shape
-#  half_shape:
-#    __include: punctuation:/half_shape
-#
-## 快捷键
-#key_binder:
-#  bindings:
-#    __patch:
-#      - 092wb_key_bindings:/092wb_hotkeys
+punctuator:
+  full_shape:
+    __include: punctuation:/full_shape
+  half_shape:
+    __include: punctuation:/half_shape
+
+# 快捷键
+key_binder:
+  bindings:
+    __patch:
+      - 092wb_key_bindings:/092wb_hotkeys
 
 recognizer:
   patterns:
