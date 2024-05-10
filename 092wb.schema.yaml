@@ -128,21 +128,8 @@ repeat_last_input:    # 重复最后一次上屏
   size: 1
   initial_quality: 1
 
-#punctuator:
-#  import_preset: default
-#  import_preset: symbols
-# 标点符号
-# punctuator 下面有三个子项：
-#   full_shape 全角标点映射
-#   half_shape 半角标点映射
-#   symbols    Rime 的预设配置是以 'zi' 前缀开头输出一系列字符
 punctuator:
-  full_shape:
-    __include: default:/punctuation/full_shape  # 从 default.yaml 导入配置
-  half_shape:
-    __include: default:/punctuation/half_shape  # 从 default.yaml 导入配置
-  symbols:
-    __include: symbols:/symbols              # 从 symbols_v.yaml 导入配置
+  import_preset: default
 
 recognizer:
   import_preset: default
