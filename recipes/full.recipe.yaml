@@ -24,5 +24,4 @@ install_files: >-
   wb_spelling.schema.yaml
   weasel.yaml
   opencc/*.*
-  lua/ace/*.*
-  lua/ace/lib/*.*
+  lua/*.*
