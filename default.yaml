@@ -6,9 +6,6 @@ config_version: '0.40'
 # 方案列表
 schema_list:
   - schema: 092wb
-#  - schema: spelling
-#  - schema: core
-#  - schema: 092wb_U
 #  - schema: py
 
 switcher:
