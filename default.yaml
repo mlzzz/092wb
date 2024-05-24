@@ -46,6 +46,9 @@ recognizer:
     uppercase: "[A-Z][-_+.'0-9A-Za-z]*$"
     url: "^(www[.]|https?:|ftp[.:]|mailto:|file:).*$|^[a-z]+[.].+$"
     helper: '^aid$'
+    unicode: "^U[a-f0-9]+"              # lua_translator@unicode，输出 Unicode 字符
+    number: "^R[0-9]+[.]?[0-9]*"        # lua_translator@number_translator，数字金额大写
+    gregorian_to_lunar: "^N[0-9]{1,8}"  # lua_translator@lunar，公历转农历，输入 N20240115 得到「二〇二三年腊月初五」
 
 # 功能键行为
 ascii_composer:
