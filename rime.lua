@@ -2,7 +2,7 @@
 -- 来源：https://github.com/BlindingDark/rime-lua-select-character
 select_character_processor = require("select_character")
 
--- 过滤生僻字 
+-- 过滤生僻字
 core = require("core_filter")
 
 -- 日期时间，可在方案中配置触发关键字。
@@ -18,7 +18,7 @@ new_spelling = require("new_spelling")
 helper = require("helper")
 
 -- U码录入, 可在 default 文件中配置触发关键字
-helper = require("unicode")
+unicode = require("unicode")
 
 -- 数字、人民币大写，大写 R 开头
 number_translator = require("number_translator")
