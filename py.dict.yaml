@@ -50336,7 +50336,7 @@ sort: by_weight
 式的	shi de
 工艺品	gong yi pin
 葡萄园	pu tao yuan
-AA制	
+#AA制
 落草为寇	luo cao wei kou
 花花公子	hua hua gong zi
 七荤八素	qi hun ba su
@@ -50449,10 +50449,10 @@ AA制
 荫蔽	yin bi
 菡萏	han dan
 节烈	jie lie
-ABC	
+#ABC
 耸动	song dong
 茸毛	rong mao
-ABC	
+#ABC
 葬在	zang zai
 节奏	jie zou
 节令	jie ling
@@ -50491,7 +50491,7 @@ ABC
 节能	jie neng
 耸起	song qi
 节度	jie du
-AB团	
+#AB团
 莆田	pu tian
 节制	jie zhi
 节略	jie lue
@@ -50517,7 +50517,7 @@ AB团
 节操	jie cao
 萨拉	sa la
 葬送	zang song
-ABS	
+#ABS
 蒸笼	zheng long
 耸入	song ru
 节减	jie jian
@@ -52153,7 +52153,7 @@ ABS
 蔑称	mie cheng
 菌种	jun zhong
 比较简单	bi jiao jian dan
-Alt	
+#Alt
 皆为利来	jie wei li lai
 蔚为壮观	wei wei zhuang guan
 苏美	su mei
@@ -52334,7 +52334,7 @@ Alt
 黄埔	huang pu
 艺坛	yi tan
 黄土	huang tu
-70后	
+#70后
 巨款	ju kuan
 黄豆	huang dou
 董必武	dong bi wu
@@ -52711,7 +52711,7 @@ Alt
 劳碌	lao lu
 蒙面	meng mian
 芳邻	fang lin
-APEC	
+#APEC
 花容月貌	hua rong yue mao
 荤腥	hun xing
 营造	ying zao
@@ -52926,7 +52926,7 @@ APEC
 匹配	pi pei
 功名利禄	gong ming li lu
 菊科	ju ke
-比尔·盖茨	
+#比尔·盖茨
 比尔盖茨	bi er gai ci
 营销部	ying xiao bu
 花鸟市场	hua niao shi chang
@@ -53218,9 +53218,9 @@ APEC
 颐和园	yi he yuan
 苟利国家生死以	gou li guo jia sheng si yi
 攻略	gong lue
-ATM	
-ATM机	
-ATM	
+#ATM
+#ATM机
+#ATM
 若非	ruo fei
 攻心	gong xin
 惹事	re shi
@@ -53328,7 +53328,7 @@ ATM
 藏有	cang you
 花前月下	hua qian yue xia
 藏胞	zang bao
-A股	
+#A股
 获奖者	huo jiang zhe
 藏青	zang qing
 燕瘦环肥	yan shou huan fei
@@ -53341,7 +53341,7 @@ A股
 薪饷	xin xiang
 藏南	zang nan
 薪水	xin shui
-A货	
+#A货
 东北虎	dong bei hu
 邯郸学步	han dan xue bu
 东帝汶	dong di wen
@@ -53362,7 +53362,7 @@ A货
 蒋公	jiang gong
 匹兹堡	pi zi bao
 燕山	yan shan
-a.m.	
+#a.m.
 医疗保健	yi liao bao jian
 黄帝内经	huang di nei jing
 燕尾	yan wei
@@ -53372,7 +53372,7 @@ a.m.
 医疗卫生	yi liao wei sheng
 致癌物	zhi ai wu
 东北风	dong bei feng
-A类	
+#A类
 莘庄	xin zhuang
 薪火	xin huo
 花甲之年	hua jia zhi nian
@@ -53391,7 +53391,7 @@ A类
 薪酬	xin chou
 辣椒	la jiao
 辛普森	xin pu sen
-A片	
+#A片
 坐冷板凳	zuo leng ban deng
 藏私	cang si
 苏门答腊	su men da la
@@ -53403,7 +53403,7 @@ A片
 辣妹	la mei
 藏独	zang du
 藏娇	cang jiao
-AV	
+#AV
 薪俸	xin feng
 年产值	nian chan zhi
 藏传	zang chuan
@@ -53495,7 +53495,7 @@ AV
 切削	qie xiao
 辨清	bian qing
 甘肃省	gan su sheng
-AVI	
+#AVI
 草蜢	cao meng
 辨明	bian ming
 草堂	cao tang
@@ -53565,7 +53565,7 @@ AVI
 藏猫猫	cang mao mao
 辨别	bian bie
 切点	qie dian
-AV女优	
+#AV女优
 黄鼠狼	huang shu lang
 荨麻	qian ma
 夫妇俩	fu fu liang
@@ -54060,11 +54060,11 @@ AV女优
 孩子	hai zi
 孔夫子	kong fu zi
 黑匣子	hei xia zi
-Baby	
+#Baby
 陈云	chen yun
 除草剂	chu cao ji
 顿感	dun gan
-Baidu	
+#Baidu
 陈胜	chen sheng
 陈真	chen zhen
 陛下	bi xia
@@ -54234,7 +54234,7 @@ Baidu
 孙子兵法	sun zi bing fa
 殊死搏斗	shu si bo dou
 帕金森	pa jin sen
-BBS	
+#BBS
 黑框	hei kuang
 黑幕	hei mu
 孺子可教	ru zi ke jiao
@@ -54243,7 +54243,7 @@ BBS
 帕金森	pa jin sen
 黑板	hei ban
 耶酥	ye su
-BBS	
+#BBS
 黑枪	hei qiang
 黑管	hei guan
 黑种	hei zhong
@@ -55117,7 +55117,7 @@ BBS
 飘过	piao guo
 孙武	sun wu
 孤注一掷	gu zhu yi zhi
-BIG5	
+#BIG5
 黑头发	hei tou fa
 耳濡目染	er ru mu ran
 金沙江	jin sha jiang
@@ -56080,7 +56080,7 @@ BIG5
 辽西	liao xi
 院中	yuan zhong
 防患	fang huan
-BP机	
+#BP机
 列宁格勒	lie ning ge le
 院校	yuan xiao
 出生入死	chu sheng ru si
@@ -56198,7 +56198,7 @@ BP机
 聊以	liao yi
 承包户	cheng bao hu
 阴道炎	yin dao yan
-阿Q精神	
+#阿Q精神
 黯然神伤	an ran shen shang
 聊着	liao zhe
 隐密	yin mi
@@ -56442,7 +56442,7 @@ BP机
 联名	lian ming
 阿根廷	a gen ting
 帖木儿	tie mu er
-阿Q	
+#阿Q
 阿訇	a hong
 黑板报	hei ban bao
 联播	lian bo
@@ -56643,7 +56643,7 @@ BP机
 金砖	jin zhuan
 金龙	jin long
 金领	jin ling
-B股	
+#B股
 取决于	qu jue yu
 金块	jin kuai
 取决于	qu jue yu
@@ -56653,7 +56653,7 @@ B股
 死里求生	si li qiu sheng
 金元	jin yuan
 孤立无援	gu li wu yuan
-BF	
+#BF
 金球	jin qiu
 金环	jin huan
 金碧	jin bi
@@ -56677,7 +56677,7 @@ BF
 金朝	jin chao
 金光	jin guang
 隘口	ai kou
-B超	
+#B超
 金边	jin bian
 陪同	pei tong
 金卡	jin ka
@@ -57348,7 +57348,7 @@ B超
 手工业	shou gong ye
 劲爆	jing bao
 马到成功	ma dao cheng gong
-CapsLock	
+#CapsLock
 骇客	hai ke
 劲旅	jing lu
 驱寒	qu han
@@ -57387,7 +57387,7 @@ CapsLock
 劲射	jing she
 马萨诸塞	ma sa zhu sai
 驻区	zhu qu
-CBA	
+#CBA
 这孩子	zhe hai zi
 这孩子	zhe hai zi
 驻防	zhu fang
@@ -57457,7 +57457,7 @@ CBA
 这些年	zhe xie nian
 这些东西	zhe xie dong xi
 这些年里	zhe xie nian li
-CCAV	
+#CCAV
 这些年来	zhe xie nian lai
 艰难险阻	jian nan xian zu
 运动队	yun dong dui
@@ -57471,7 +57471,7 @@ CCAV
 驷马难追	si ma nan zhui
 知难而上	zhi nan er shang
 这些原因	zhe xie yuan yin
-CCD	
+#CCD
 知难而退	zhi nan er tui
 知难而进	zhi nan er jin
 运动服	yun dong fu
@@ -57556,10 +57556,10 @@ CCD
 动手术	dong shou shu
 驱动程序	qu dong cheng xu
 步步紧逼	bu bu jin bi
-CCTV	
+#CCTV
 这些问题	zhe xie wen ti
 通知单	tong zhi dan
-CCU	
+#CCU
 驿站	yi zhan
 疏狂	shu kuang
 运动战	yun dong zhan
@@ -57634,7 +57634,7 @@ CCU
 马克思列宁主义	ma ke si lie ning zhu yi
 马克思主义理论	ma ke si zhu yi li lun
 魂牵梦萦	hun qian meng ying
-CDMA	
+#CDMA
 参看	can kan
 参拜	can bai
 参保	can bao
@@ -57642,7 +57642,7 @@ CDMA
 齐达内	qi da nei
 魂牵梦绕	hun qian meng rao
 参展	can zhan
-cDNA	
+#cDNA
 动感情	dong gan qing
 参悟	can wu
 参事	can shi
@@ -57659,7 +57659,7 @@ cDNA
 参与	can yu
 矜持	jin chi
 骑兵	qi bing
-CD机	
+#CD机
 参酌	can zhuo
 参校	can jiao
 骑术	qi shu
@@ -57685,7 +57685,7 @@ CD机
 骑射	qi she
 参评	can ping
 参证	can zheng
-C大调	
+#C大调
 参议	can yi
 运用	yun yong
 这两年	zhe liang nian
@@ -57775,7 +57775,7 @@ C大调
 通判	tong pan
 文具店	wen ju dian
 这两个	zhe liang ge
-CEO	
+#CEO
 通窍	tong qiao
 通宝	tong bao
 勇冠	yong guan
@@ -57805,7 +57805,7 @@ CEO
 通篇	tong pian
 通称	tong cheng
 这两种	zhe liang zhong
-CET	
+#CET
 运用自如	yun yong zi ru
 通入	tong ru
 通病	tong bing
@@ -57892,7 +57892,7 @@ CET
 圣恩	sheng en
 歧路	qi lu
 智者见智	zhi zhe jian zhi
-CF卡	
+#CF卡
 圣山	sheng shan
 圣婴	sheng ying
 圣典	sheng dian
@@ -57905,7 +57905,7 @@ CF卡
 难于启齿	nan yu qi chi
 歧视	qi shi
 马后炮	ma hou pao
-CFO	
+#CFO
 圣火	sheng huo
 欢喜冤家	huan xi yuan jia
 智者千虑	zhi zhe qian lu
@@ -58190,7 +58190,7 @@ CFO
 手袋	shou dai
 海南省	hai nan sheng
 云南省	yun nan sheng
-China	
+#China
 手淫	shou yin
 手洗	shou xi
 手汗	shou han
@@ -58225,7 +58225,7 @@ China
 手段	shou duan
 文化底蕴	wen hua di yun
 海基会	hai ji hui
-Chrome	
+#Chrome
 难得糊涂	nan de hu tu
 手炉	shou lu
 鱼水之欢	yu shui zhi huan
@@ -58450,7 +58450,7 @@ Chrome
 这是	zhe shi
 文明	wen ming
 通州区	tong zhou qu
-智能ABC	
+#智能ABC
 鲁莽	lu mang
 鲁菜	lu cai
 通州区	tong zhou qu
@@ -58890,7 +58890,7 @@ Chrome
 圣公会	sheng gong hui
 文山会海	wen shan hui hai
 观礼	guan li
-CMOS	
+#CMOS
 观赛	guan sai
 观之	guan zhi
 观察	guan cha
@@ -59038,7 +59038,7 @@ CMOS
 毛囊	mao nang
 戏剧性	xi ju xing
 肯尼迪	ken ni di
-CNN	
+#CNN
 又以	you yi
 这几个	zhe ji ge
 又会	you hui
@@ -59240,7 +59240,7 @@ CNN
 驴肉	lu rou
 这个也是	zhe ge ye shi
 马嵬	ma wei
-COMS	
+#COMS
 叠嶂	die zhang
 马贼	ma zei
 兴华	xing hua
@@ -59442,14 +59442,14 @@ COMS
 这行	zhe hang
 这得	zhe dei
 这代	zhe dai
-CPI	
+#CPI
 文字游戏	wen zi you xi
 齐家治国	qi jia zhi guo
 鱼翔浅底	yu xiang qian di
 鲜活	xian huo
 运河	yun he
 鲜润	xian run
-CPI	
+#CPI
 这头	zhe tou
 肯定是	ken ding shi
 肯定能	ken ding neng
@@ -59568,13 +59568,13 @@ CPI
 运筹	yun chou
 运管	yun guan
 这种	zhe zhong
-CPU	
+#CPU
 这里	zhe li
 鲜美	xian mei
 这间	zhe jian
 这部	zhe bu
 这尊	zhe zun
-CPU	
+#CPU
 驼背	tuo bei
 这门	zhe men
 鲜奶	xian nai
@@ -59821,7 +59821,7 @@ CPU
 难管	nan guan
 短兵相接	duan bing xiang jie
 手提箱	shou ti xiang
-CRT	
+#CRT
 难闻	nan wen
 马失前蹄	ma shi qian ti
 难产	nan chan
@@ -59965,12 +59965,12 @@ CRT
 预科	yu ke
 通配符	tong pei fu
 马关条约	ma guan tiao yue
-马丁·路德·金	
+#马丁·路德·金
 预冷	yu leng
 颈椎病	jing zhui bing
 预装	yu zhuang
 柔美	rou mei
-马丁·路德	
+#马丁·路德
 预交	yu jiao
 柔韧	rou ren
 柔媚	rou mei
@@ -60072,7 +60072,7 @@ CRT
 鱼儿	yu er
 鱼钩	yu gou
 鱼卵	yu luan
-Ctrl	
+#Ctrl
 鱼缸	yu gang
 鱼片	yu pian
 鱼竿	yu gan
@@ -60101,7 +60101,7 @@ Ctrl
 海燕	hai yan
 止痛药	zhi tong yao
 海顿	hai dun
-CUBA	
+#CUBA
 海陆	hai lu
 海子	hai zi
 叉子	cha zi
@@ -60120,7 +60120,7 @@ CUBA
 这里面的	zhe li mian de
 海面	hai mian
 这里面	zhe li mian
-CD	
+#CD
 海龙	hai long
 海豚	hai tun
 海胆	hai dan
@@ -60187,7 +60187,7 @@ CD
 海路	hai lu
 海边	hai bian
 这里边	zhe li bian
-C罗	
+#C罗
 这部分	zhe bu fen
 海岸	hai an
 海贝	hai bei
@@ -60225,10 +60225,10 @@ C罗
 海中	hai zhong
 海棉	hai mian
 止痛片	zhi tong pian
-CS	
+#CS
 海关	hai guan
 毛遂自荐	mao sui zi jian
-CT	
+#CT
 海里	hai li
 马里兰	ma li lan
 马六甲	ma liu jia
@@ -60685,7 +60685,7 @@ CT
 圣诞夜	sheng dan ye
 文论	wen lun
 文言	wen yan
-C语言	
+#C语言
 研究	yan jiu
 大家	da jia
 达到	da dao
@@ -61175,7 +61175,7 @@ C语言
 总参谋长	zong can mou zhang
 友谊	you yi
 总参谋部	zong can mou bu
-3C认证	
+#3C认证
 存在	cun zai
 石工	shi gong
 磊落	lei luo
@@ -61412,8 +61412,8 @@ C语言
 耐用品	nai yong pin
 克服困难	ke fu kun nan
 三朋四友	san peng si you
-Delete	
-delphi	
+#Delete
+#delphi
 研制	yan zhi
 唇边	chun bian
 胡同	hu tong
@@ -62149,7 +62149,7 @@ delphi
 三毛	san mao
 三叠	san die
 三鲜	san xian
-3C	
+#3C
 三顾	san gu
 大瀑布	da pu bu
 石沉大海	shi chen da hai
@@ -62162,7 +62162,7 @@ delphi
 三大	san da
 砂砾	sha li
 破涕而笑	po ti er xiao
-3D	
+#3D
 三两	san liang
 三月	san yue
 而没有	er mei you
@@ -62195,7 +62195,7 @@ delphi
 感激不尽	gan ji bu jin
 三亚	san ya
 三万	san wan
-3G	
+#3G
 三班	san ban
 总觉得	zong jue de
 感觉得到	gan jue de dao
@@ -62676,7 +62676,7 @@ delphi
 历史最高	li shi zui gao
 原本	yuan ben
 原载	yuan zai
-三K党	
+#三K党
 春光明媚	chun guang ming mei
 原是	yuan shi
 原题	yuan ti
@@ -63219,12 +63219,12 @@ delphi
 而亡	er wang
 故事	gu shi
 感情	gan qing
-DNA	
+#DNA
 三段式	san duan shi
 总工	zong gong
 春情荡漾	chun qing dang yang
 总攻	zong gong
-DNA	
+#DNA
 总比	zong bi
 奇怪了	qi guai le
 总帐	zong zhang
@@ -63776,7 +63776,7 @@ DNA
 大牙	da ya
 大失	da shi
 大我	da wo
-DOS	
+#DOS
 大楷	da kai
 大幕	da mu
 大权	da quan
@@ -63793,11 +63793,11 @@ DOS
 大板	da ban
 大片	da pian
 大校	da xiao
-DOS	
+#DOS
 大概	da gai
 大关	da guan
 大醉	da zui
-DOTA	
+#DOTA
 大笔	da bi
 大处	da chu
 大禹	da yu
@@ -63971,7 +63971,7 @@ DOTA
 牵连	qian lian
 研究所	yan jiu suo
 而成为	er cheng wei
-DPL	
+#DPL
 牵累	qian lei
 大富翁	da fu weng
 含羞带怯	han xiu dai qie
@@ -64221,7 +64221,7 @@ DPL
 压抑感	ya yi gan
 古希腊	gu xi la
 古希腊	gu xi la
-Dreamweaver	
+#Dreamweaver
 大提琴	da ti qin
 百折不回	bai zhe bu hui
 百折不挠	bai zhe bu nao
@@ -64513,7 +64513,7 @@ Dreamweaver
 大部分	da bu fen
 太医	tai yi
 太玄	tai xuan
-达·芬奇	
+#达·芬奇
 太菜	tai cai
 碰到	peng dao
 碰巧	peng qiao
@@ -64609,7 +64609,7 @@ Dreamweaver
 太监	tai jian
 太晚	tai wan
 在野党	zai ye dang
-DJ	
+#DJ
 大问题	da wen ti
 三部曲	san bu qu
 大背景下	da bei jing xia
@@ -64643,7 +64643,7 @@ DJ
 太惨	tai can
 克里特	ke li te
 太慢	tai man
-360度	
+#360度
 大将风度	da jiang feng du
 太迟	tai chi
 磁性	ci xing
@@ -64687,7 +64687,7 @@ DJ
 太极	tai ji
 磁极	ci ji
 碰杯	peng bei
-365天	
+#365天
 雁门关	yan men guan
 春兰秋菊	chun lan qiu ju
 磅秤	bang cheng
@@ -64711,7 +64711,7 @@ DJ
 克里姆林宫	ke li mu lin gong
 三六九等	san liu jiu deng
 太君	tai jun
-DV	
+#DV
 太傅	tai fu
 总产值	zong chan zhi
 磁体	ci ti
@@ -64743,7 +64743,7 @@ DV
 三驾马车	san jia ma che
 威海	wei hai
 大姐大	da jie da
-DVD	
+#DVD
 砖砌	zhuan qi
 百灵百验	bai ling bai yan
 砖石	zhuan shi
@@ -64752,7 +64752,7 @@ DVD
 大奸大恶	da jian da e
 达摩克利斯	da mo ke li si
 大姐大	da jie da
-DVD	
+#DVD
 套套	tao tao
 套用	tao yong
 大好形势	da hao xing shi
@@ -66909,9 +66909,9 @@ DVD
 盘诘	pan jie
 助词	zhu ci
 遭到	zao dao
-E-mail	
+#E-mail
 脱贫致富	tuo pin zhi fu
-EMBA	
+#EMBA
 形同陌路	xing tong mo lu
 遭殃	zao yang
 舰队	jian dui
@@ -66954,7 +66954,7 @@ EMBA
 对华投资	dui hua tou zi
 曹植	cao zhi
 舢板	shan ban
-EMS	
+#EMS
 遭逢	zao feng
 开山鼻祖	kai shan bi zu
 曹魏	cao wei
@@ -66999,7 +66999,7 @@ EMS
 船厂	chuan chang
 对面	dui mian
 开怀大笑	kai huai da xiao
-End	
+#End
 肌肤	ji fu
 船舷	chuan xian
 对月	dui yue
@@ -67121,7 +67121,7 @@ End
 腥风血雨	xing feng xue yu
 两情相悦	liang qing xiang yue
 对称	dui chen
-Enter	
+#Enter
 对答	dui da
 月收入	yue shou ru
 对决	dui jue
@@ -67768,7 +67768,7 @@ Enter
 选拔赛	xuan ba sai
 对抗赛	dui kang sai
 商旅	shang lu
-ERP	
+#ERP
 商定	shang ding
 商铺	shang pu
 商鞅	shang yang
@@ -67821,7 +67821,7 @@ ERP
 彩金	cai jin
 腰际	yao ji
 彩云	cai yun
-Esc	
+#Esc
 有关文件	you guan wen jian
 采石	cai shi
 采矿	cai kuang
@@ -68200,7 +68200,7 @@ Esc
 胶靴	jiao xue
 具名	ju ming
 开普勒	kai pu le
-EQ	
+#EQ
 胶质	jiao zhi
 开门揖盗	kai men yi dao
 有效措施	you xiao cuo shi
@@ -68391,7 +68391,7 @@ EQ
 有经验	you jing yan
 有线通	you xian tong
 有进步	you jin bu
-Excel	
+#Excel
 有经验	you jing yan
 脱颖而出	tuo ying er chu
 胆结石	dan jie shi
@@ -68615,7 +68615,7 @@ Excel
 告诉人们	gao su ren men
 脑髓	nao sui
 航线	hang xian
-γ射线	
+#γ射线
 有计划	you ji hua
 脉络	mai luo
 航母	hang mu
@@ -69019,7 +69019,7 @@ Excel
 支离	zhi li
 老马识途	lao ma shi tu
 鼓励	gu li
-FDA	
+#FDA
 士大夫	shi da fu
 零散	ling san
 零工	ling gong
@@ -69140,7 +69140,7 @@ FDA
 零和	ling he
 老三篇	lao san pian
 零存整取	ling cun zheng qu
-FDU	
+#FDU
 老百姓	lao bai xing
 震怒	zhen nu
 零点	ling dian
@@ -69672,7 +69672,7 @@ FDU
 平天下	ping tian xia
 后天下之忧而忧	hou tian xia zhi you er you
 后天下之乐而乐	hou tian xia zhi le er le
-211工程	
+#211工程
 无恶不作	wu e bu zuo
 平静下来	ping jing xia lai
 后现代	hou xian dai
@@ -69717,7 +69717,7 @@ FDU
 真正的	zhen zheng de
 干白	gan bai
 干嘛	gan ma
-21世纪	
+#21世纪
 十一世纪	shi yi shi ji
 过不去	guo bu qu
 过不去	guo bu qu
@@ -69731,7 +69731,7 @@ FDU
 干爹	gan die
 十万八千里	shi wan ba qian li
 老一辈	lao yi bei
-二一〇	
+#二一〇
 二不怕死	er bu pa si
 地球卫星	di qiu wei xing
 地不怕	di bu pa
@@ -69970,7 +69970,7 @@ FDU
 未开	wei kai
 未及	wei ji
 都江堰	du jiang yan
-FIFA	
+#FIFA
 平淡无奇	ping dan wu qi
 土头土脑	tu tou tu nao
 无法无天	wu fa wu tian
@@ -70085,7 +70085,7 @@ FIFA
 二折	er zhe
 过河拆桥	guo he chai qiao
 未接	wei jie
-Firefox	
+#Firefox
 教学楼	jiao xue lou
 二极	er ji
 未可	wei ke
@@ -70462,7 +70462,7 @@ Firefox
 露台	lu tai
 雷动	lei dong
 赤兔马	chi tu ma
-二〇三	
+#二〇三
 雷劈	lei pi
 增压	zeng ya
 无为而治	wu wei er zhi
@@ -70484,7 +70484,7 @@ Firefox
 协商	xie shang
 露脸	lou lian
 无异于	wu yi yu
-二〇二	
+#二〇二
 郝思嘉	hao si jia
 无边无际	wu bian wu ji
 幸免于难	xing mian yu nan
@@ -70498,7 +70498,7 @@ Firefox
 雷霆	lei ting
 雷场	lei chang
 无所不	wu suo bu
-二〇一	
+#二〇一
 无所不知	wu suo bu zhi
 无所不通	wu suo bu tong
 露天	lu tian
@@ -70524,7 +70524,7 @@ Firefox
 十四行诗	shi si hang shi
 顽固派	wan gu pai
 增添	zeng tian
-24小时	
+#24小时
 土办法	tu ban fa
 雷池	lei chi
 增派	zeng pai
@@ -70536,7 +70536,7 @@ Firefox
 雷电	lei dian
 雷暴	lei bao
 过去的	guo qu de
-24K金	
+#24K金
 增光	zeng guang
 增资	zeng zi
 教导员	jiao dao yuan
@@ -70547,7 +70547,7 @@ Firefox
 露白	lou bai
 十四世纪	shi si shi ji
 都因为	dou yin wei
-二〇〇	
+#二〇〇
 协力	xie li
 无力回天	wu li hui tian
 协办	xie ban
@@ -70810,7 +70810,7 @@ Firefox
 地衣	di yi
 封山育林	feng shan yu lin
 十几年	shi ji nian
-二〇七	
+#二〇七
 十几年	shi ji nian
 十几年前	shi ji nian qian
 无以至千里	wu yi zhi qian li
@@ -70823,7 +70823,7 @@ Firefox
 声频	sheng pin
 喜忧参半	xi you can ban
 声誉	sheng yu
-二〇三	
+#二〇三
 声码	sheng ma
 声压	sheng ya
 无风三尺浪	wu feng san chi lang
@@ -70835,7 +70835,7 @@ Firefox
 都必须	dou bi xu
 真情告白	zhen qing gao bai
 志气	zhi qi
-二〇二	
+#二〇二
 于事无补	yu shi wu bu
 声震	sheng zhen
 志士	zhi shi
@@ -70843,7 +70843,7 @@ Firefox
 救民于水火	jiu min yu shui huo
 无情无义	wu qing wu yi
 过几天	guo ji tian
-二〇一	
+#二〇一
 过几天	guo ji tian
 平心静气	ping xin jing qi
 无风不起浪	wu feng bu qi lang
@@ -70870,15 +70870,15 @@ Firefox
 无风起浪	wu feng qi lang
 垛口	duo kou
 震惊世界	zhen jing shi jie
-20世纪	
-二〇四	
+#20世纪
+#二〇四
 志异	zhi yi
 震惊四座	zhen jing si zuo
 无以为报	wu yi wei bao
-二〇八	
+#二〇八
 声卡	sheng ka
 声带	sheng dai
-二〇〇	
+#二〇〇
 坏事情	huai shi qing
 直愣愣	zhi leng leng
 未尽事宜	wei jin shi yi
@@ -70902,7 +70902,7 @@ Firefox
 声控	sheng kong
 无心插柳	wu xin cha liu
 喜剧片	xi ju pian
-二〇五	
+#二〇五
 后悔莫及	hou hui mo ji
 无懈可击	wu xie ke ji
 声中	sheng zhong
@@ -70917,7 +70917,7 @@ Firefox
 声称	sheng cheng
 无以复加	wu yi fu jia
 声符	sheng fu
-二〇六	
+#二〇六
 声情并茂	sheng qing bing mao
 声闻	sheng wen
 声部	sheng bu
@@ -70925,7 +70925,7 @@ Firefox
 声效	sheng xiao
 土特产	tu te chan
 丧心病狂	sang xin bing kuang
-二〇九	
+#二〇九
 无以伦比	wu yi lun bi
 声优	sheng you
 声像	sheng xiang
@@ -71251,7 +71251,7 @@ Firefox
 后生可畏	hou sheng ke wei
 城楼	cheng lou
 壳牌	qiao pai
-FPS	
+#FPS
 索要	suo yao
 无迹可寻	wu ji ke xun
 平方根	ping fang gen
@@ -71938,7 +71938,7 @@ FPS
 堆积成山	dui ji cheng shan
 救灾	jiu zai
 过程之中	guo cheng zhi zhong
-FTP	
+#FTP
 无稽之谈	wu ji zhi tan
 无处容身	wu chu rong shen
 雾色	wu se
@@ -72039,7 +72039,7 @@ FTP
 远亲不如近邻	yuan qin bu ru jin lin
 平静	ping jing
 埋下	mai xia
-F1	
+#F1
 幸亏	xing kui
 丧妻	sang qi
 平素	ping su
@@ -72139,7 +72139,7 @@ F1
 平息	ping xi
 平稳	ping wen
 平移	ping yi
-FT	
+#FT
 埋入	mai ru
 平装	ping zhuang
 埋单	mai dan
@@ -72326,7 +72326,7 @@ FT
 救人一命胜造七级浮屠	jiu ren yi ming sheng zao qi ji fu tu
 真人不露相	zhen ren bu lou xiang
 吉人天相	ji ren tian xiang
-考G	
+#考G
 考上	kao shang
 考期	kao qi
 款待	kuan dai
@@ -72869,7 +72869,7 @@ FT
 弄些	nong xie
 不劳而获	bu lao er huo
 亚欧大陆	ya ou da lu
-一年365天	
+#一年365天
 弄破	nong po
 理工大学	li gong da xue
 万年历	wan nian li
@@ -72935,7 +72935,7 @@ FT
 一切的	yi qie de
 逗哏	dou gen
 逗号	dou hao
-17世纪	
+#17世纪
 武力	wu li
 一切办法	yi qie ban fa
 一切力量	yi qie li liang
@@ -73041,7 +73041,7 @@ FT
 不出	bu chu
 下降到	xia jiang dao
 下降到	xia jiang dao
-GBA	
+#GBA
 下降了	xia jiang le
 一阵阵	yi zhen zhen
 一阵子	yi zhen zi
@@ -73062,7 +73062,7 @@ GBA
 青出于蓝	qing chu yu lan
 天主教	tian zhu jiao
 不列颠	bu lie dian
-GB2312	
+#GB2312
 不限于	bu xian yu
 凹凸	ao tu
 万死不辞	wan si bu ci
@@ -73073,8 +73073,8 @@ GB2312
 现金流	xian jin liu
 王阳明	wang yang ming
 不了的	bu liao de
-GBK	
-GBK	
+#GBK
+#GBK
 不出去	bu chu qu
 不出去	bu chu qu
 不出所料	bu chu suo liao
@@ -73632,7 +73632,7 @@ GBK
 麦克唐纳	mai ke tang na
 天火	tian huo
 不确定	bu que ding
-GDP	
+#GDP
 表达方式	biao da fang shi
 天宝	tian bao
 天宇	tian yu
@@ -73649,7 +73649,7 @@ GDP
 一念之间	yi nian zhi jian
 一面之交	yi mian zhi jiao
 天寒	tian han
-GDP	
+#GDP
 天安	tian an
 天定	tian ding
 不确定	bu que ding
@@ -75234,7 +75234,7 @@ GDP
 一小部分	yi xiao bu fen
 一爿	yi pan
 一旁	yi pang
-亚当·斯密	
+#亚当·斯密
 一准	yi zhun
 一尊	yi zun
 一整	yi zheng
@@ -75867,9 +75867,9 @@ GDP
 一看到	yi kan dao
 一看到	yi kan dao
 现年	xian nian
-Gmail	
+#Gmail
 一番苦心	yi fan ku xin
-GMAT	
+#GMAT
 下岗工人	xia gang gong ren
 一辈子	yi bei zi
 下辈子	xia bei zi
@@ -75955,7 +75955,7 @@ GMAT
 凸起	tu qi
 不同的	bu tong de
 不同的人	bu tong de ren
-18世纪	
+#18世纪
 否则的话	fou ze de hua
 现象	xian xiang
 一分为二	yi fen wei er
@@ -75972,7 +75972,7 @@ GMAT
 一分收获	yi fen shou huo
 责怪	ze guai
 不同凡响	bu tong fan xiang
-180度	
+#180度
 天网恢恢	tian wang hui hui
 环保局	huan bao ju
 不同凡俗	bu tong fan su
@@ -75985,11 +75985,11 @@ GMAT
 现实	xian shi
 万分之	wan fen zhi
 不同之处	bu tong zhi chu
-GMP	
+#GMP
 瑞安	rui an
 现成	xian cheng
 责成	ze cheng
-GMP认证	
+#GMP认证
 一分钟	yi fen zhong
 一分钱	yi fen qian
 现钱	xian qian
@@ -76132,7 +76132,7 @@ GMP认证
 不属于	bu shu yu
 不屑于	bu xie yu
 正由于	zheng you yu
-10后	
+#10后
 不露	bu lu
 不求	bu qiu
 一事无成	yi shi wu cheng
@@ -76332,7 +76332,7 @@ GMP认证
 不料	bu liao
 不全	bu quan
 瓦全	wa quan
-GNP	
+#GNP
 不差	bu cha
 不变	bu bian
 不以成败论英雄	bu yi cheng bai lun ying xiong
@@ -76349,7 +76349,7 @@ GNP
 不放	bu fang
 不善	bu shan
 不寐	bu mei
-GNP	
+#GNP
 不安	bu an
 万物之灵	wan wu zhi ling
 不定	bu ding
@@ -76671,8 +76671,8 @@ GNP
 恶事	e shi
 一个个	yi ge ge
 不那么	bu na me
-Good	
-Google	
+#Good
+#Google
 一双双	yi shuang shuang
 不那么	bu na me
 恶业	e ye
@@ -76796,7 +76796,7 @@ Google
 静安区	jing an qu
 一定范围内	yi ding fan wei nei
 静安区	jing an qu
-GPA	
+#GPA
 责之切	ze zhi qie
 不成比例	bu cheng bi li
 还被	hai bei
@@ -76962,7 +76962,7 @@ GPA
 天生我材必有用	tian sheng wo cai bi you yong
 天生我才必有用	tian sheng wo cai bi you yong
 还把	hai ba
-GPRS	
+#GPRS
 不容质疑	bu rong zhi yi
 一定要	yi ding yao
 现实中	xian shi zhong
@@ -76970,7 +76970,7 @@ GPRS
 不成材	bu cheng cai
 一生中	yi sheng zhong
 一定可以	yi ding ke yi
-GPS	
+#GPS
 还要	hai yao
 一定要	yi ding yao
 一定条件下	yi ding tiao jian xia
@@ -76989,7 +76989,7 @@ GPS
 不着痕迹	bu zhao hen ji
 还将	hai jiang
 不成立	bu cheng li
-GPU	
+#GPU
 晋察冀	jin cha ji
 天安门	tian an men
 还好	hai hao
@@ -77236,7 +77236,7 @@ GPU
 一挥而就	yi hui er jiu
 一拍两散	yi pai liang san
 一共有	yi gong you
-GRE	
+#GRE
 下丘脑	xia qiu nao
 天摇地动	tian yao di dong
 天打雷劈	tian da lei pi
@@ -77372,7 +77372,7 @@ GRE
 一片哗然	yi pian hua ran
 一样的	yi yang de
 不够的	bu gou de
-15世纪	
+#15世纪
 严格的说	yan ge de shuo
 末席	mo xi
 不要因为	bu yao yin wei
@@ -77380,13 +77380,13 @@ GRE
 不可改变	bu ke gai bian
 不可思议	bu ke si yi
 正中央	zheng zhong yang
-GSM	
+#GSM
 正中央	zheng zhong yang
 不患贫而患不均	bu huan pin er huan bu jun
 画栋雕梁	hua dong diao liang
 不可分割	bu ke fen ge
 不患贫而患不安	bu huan pin er huan bu an
-GSM	
+#GSM
 不可分	bu ke fen
 不可同日而语	bu ke tong ri er yu
 不可以	bu ke yi
@@ -77729,7 +77729,7 @@ GSM
 下里巴人	xia li ba ren
 不单是	bu dan shi
 理喻	li yu
-16世纪	
+#16世纪
 武装力量	wu zhuang li liang
 理路	li lu
 一部分	yi bu fen
@@ -77773,7 +77773,7 @@ GSM
 武装部	wu zhuang bu
 不单单	bu dan dan
 表里如一	biao li ru yi
-G点	
+#G点
 一闪即逝	yi shan ji shi
 更阑人静	geng lan ren jing
 正部级	zheng bu ji
@@ -77833,9 +77833,9 @@ G点
 下半叶	xia ban ye
 更好的	geng hao de
 班超	ban chao
-19世纪	
+#19世纪
 班次	ban ci
-一九〇	
+#一九〇
 一九四	yi jiu si
 班固	ban gu
 班车	ban che
@@ -79122,7 +79122,7 @@ G点
 发愁	fa chou
 得而复失	de er fu shi
 发自	fa zi
-HDTV	
+#HDTV
 发痛	fa tong
 发冷	fa leng
 发病	fa bing
@@ -80149,14 +80149,14 @@ HDTV
 水产	shui chan
 水闸	shui zha
 水门	shui men
-HIV	
+#HIV
 水磨	shui mo
 执法犯法	zhi fa fan fa
 长沙市	chang sha shi
 执法如山	zhi fa ru shan
 水灵	shui ling
 水獭	shui ta
-HIV	
+#HIV
 水战	shui zhan
 斯洛伐克	si luo fa ke
 水体	shui ti
@@ -81060,7 +81060,7 @@ HIV
 虚度	xu du
 高精度	gao jing du
 皮糙肉厚	pi cao rou hou
-Home	
+#Home
 热带	re dai
 虚岁	xu sui
 热情	re qing
@@ -81631,7 +81631,7 @@ Home
 长鸣	chang ming
 长吻	chang wen
 长史	zhang shi
-HSK	
+#HSK
 长啸	chang xiao
 旧中国	jiu zhong guo
 旧中国	jiu zhong guo
@@ -81784,7 +81784,7 @@ HSK
 热血男儿	re xue nan er
 化为	hua wei
 微积分	wei ji fen
-HTML	
+#HTML
 发自内心	fa zi nei xin
 瞅见	chou jian
 皮笑肉不笑	pi xiao rou bu xiao
@@ -81894,7 +81894,7 @@ HTML
 很普遍	hen pu bian
 化妆室	hua zhuang shi
 食前方丈	shi qian fang zhang
-HP	
+#HP
 鼎盛	ding sheng
 南北方	nan bei fang
 水立方	shui li fang
@@ -82793,9 +82793,9 @@ HP
 派出所	pai chu suo
 学界	xue jie
 洲际导弹	zhou ji dao dan
-IBM	
+#IBM
 注释	zhu shi
-IBM	
+#IBM
 学分	xue fen
 小黑屋	xiao hei wu
 学风	xue feng
@@ -82986,7 +82986,7 @@ IBM
 济公	ji gong
 渔网	yu wang
 汉赋	han fu
-IC卡	
+#IC卡
 汉堡	han bao
 济贫	ji pin
 流动性	liu dong xing
@@ -83019,7 +83019,7 @@ IC卡
 治乱	zhi luan
 梁文道	liang wen dao
 温文尔雅	wen wen er ya
-ICQ	
+#ICQ
 渔捞	yu lao
 小马拉大车	xiao ma la da che
 治权	zhi quan
@@ -83043,7 +83043,7 @@ ICQ
 洗手间	xi shou jian
 济慈	ji ci
 渔产	yu chan
-ICU	
+#ICU
 流动站	liu dong zhan
 学龄前	xue ling qian
 涉猎	she lie
@@ -83204,7 +83204,7 @@ ICU
 小肚子	xiao du zi
 滥用职权	lan yong zhi quan
 没有联系	mei you lian xi
-I服了U	
+#I服了U
 少先队	shao xian dui
 削除	xue chu
 小肚鸡肠	xiao du ji chang
@@ -83312,7 +83312,7 @@ I服了U
 洗染	xi ran
 头悬梁	tou xuan liang
 洗头	xi tou
-IE浏览器	
+#IE浏览器
 溪流	xi liu
 油腔滑调	you qiang hua diao
 涿州	zhuo zhou
@@ -83342,7 +83342,7 @@ IE浏览器
 洗劫	xi jie
 溪边	xi bian
 学有所成	xue you suo cheng
-IELTS	
+#IELTS
 溪畔	xi pan
 汽轮	qi lun
 没有看到	mei you kan dao
@@ -84899,7 +84899,7 @@ IELTS
 深山老林	shen shan lao lin
 削峰填谷	xue feng tian gu
 池塘	chi tang
-IMF	
+#IMF
 浴场	yu chang
 没见过	mei jian guo
 洞天	dong tian
@@ -85161,7 +85161,7 @@ IMF
 油松	you song
 学习机	xue xi ji
 油棕	you zong
-Insert	
+#Insert
 没必要	mei bi yao
 漏检	lou jian
 深居简出	shen ju jian chu
@@ -85170,7 +85170,7 @@ Insert
 学习委员	xue xi wei yuan
 油管	you guan
 油箱	you xiang
-Internet	
+#Internet
 泥塑	ni su
 油瓶	you ping
 波特兰	bo te lan
@@ -85354,7 +85354,7 @@ Internet
 演替	yan ti
 浓荫	nong yin
 游医	you yi
-iPad	
+#iPad
 洋芋	yang yu
 游弋	you yi
 游荡	you dang
@@ -85409,7 +85409,7 @@ iPad
 溶胶	rong jiao
 温室气体	wen shi qi ti
 沉着脸	chen zhuo lian
-IP地址	
+#IP地址
 溶于	rong yu
 游击	you ji
 当之无愧	dang zhi wu kui
@@ -85424,7 +85424,7 @@ IP地址
 浪迹天涯	lang ji tian ya
 浑不	hun bu
 学究天人	xue jiu tian ren
-iPhone	
+#iPhone
 游街	you jie
 浑水	hun shui
 洋货	yang huo
@@ -85466,7 +85466,7 @@ iPhone
 洋流	yang liu
 游览	you lan
 浣熊	huan xiong
-IP电话	
+#IP电话
 沉吟	chen yin
 游走	you zou
 演唱	yan chang
@@ -85491,7 +85491,7 @@ IP电话
 演习	yan xi
 学生会	xue sheng hui
 学生会	xue sheng hui
-iPod	
+#iPod
 浓烟	nong yan
 洋烟	yang yan
 淀粉	dian fen
@@ -85499,7 +85499,7 @@ iPod
 洋房	yang fang
 洋炮	yang pao
 洋底	yang di
-IPO	
+#IPO
 泻火	xie huo
 洋火	yang huo
 温家宝	wen jia bao
@@ -86000,24 +86000,24 @@ IPO
 没机会	mei ji hui
 酒会	jiu hui
 酒类	jiu lei
-ISO9003	
+#ISO9003
 酒糟	jiu zao
-ISO9000	
-ISO9002	
+#ISO9000
+#ISO9002
 酒精	jiu jing
 波西米亚	bo xi mi ya
-ISO9001	
+#ISO9001
 酒神	jiu shen
 河神	he shen
 酒店	jiu dian
-ISO9004	
+#ISO9004
 漠视	mo shi
 洒遍	sa bian
 河粉	he fen
-ISO9000	
+#ISO9000
 河床	he chuang
 河底	he di
-ISO	
+#ISO
 漆料	qi liao
 酒家	jiu jia
 酒旗	jiu qi
@@ -86139,7 +86139,7 @@ ISO
 少时	shao shi
 省时	sheng shi
 少量	shao liang
-IT时代	
+#IT时代
 省电	sheng dian
 泛起	fan qi
 少吃	shao chi
@@ -86172,7 +86172,7 @@ IT时代
 少尉	shao wei
 省会	sheng hui
 源程序	yuan cheng xu
-IT业	
+#IT业
 少数	shao shu
 省府	sheng fu
 洪秀全	hong xiu quan
@@ -86207,7 +86207,7 @@ IT业
 泛美	fan mei
 省亲	xing qin
 省部	sheng bu
-IT产业	
+#IT产业
 少将	shao jiang
 省立	sheng li
 消息灵通	xiao xi ling tong
@@ -86222,7 +86222,7 @@ IT产业
 渐入佳境	jian ru jia jing
 省份	sheng fen
 深入人心	shen ru ren xin
-IT企业	
+#IT企业
 学科建设	xue ke jian she
 泛红	fan hong
 深入细致	shen ru xi zhi
@@ -86250,7 +86250,7 @@ IT企业
 溢出	yi chu
 滚出	gun chu
 滚动	gun dong
-IC	
+#IC
 漱石	shu shi
 滚石	gun shi
 润唇	run chun
@@ -86323,11 +86323,11 @@ IC
 滋生	zi sheng
 滋养	zi yang
 鸿门宴	hong men yan
-IP	
+#IP
 波普尔	bo pu er
 润色	run se
 没准儿	mei zhun er
-IQ	
+#IQ
 滋扰	zi rao
 满门抄斩	man men chao zhan
 溜门撬锁	liu men qiao suo
@@ -87159,7 +87159,7 @@ IQ
 日益	ri yi
 日立	ri li
 日前	ri qian
-Java	
+#Java
 蝇营狗苟	ying ying gou gou
 尚好	shang hao
 尚早	shang zao
@@ -87873,7 +87873,7 @@ Java
 时而	shi er
 时态	shi tai
 时令	shi ling
-J2EE	
+#J2EE
 时有	shi you
 旱船	han chuan
 暑气	shu qi
@@ -89184,7 +89184,7 @@ J2EE
 星月	xing yue
 星形	xing xing
 蛇形	she xing
-JPEG	
+#JPEG
 蛇胆	she dan
 星盘	xing pan
 晕船	yun chuan
@@ -93136,7 +93136,7 @@ JPEG
 白痴	bai chi
 白血病	bai xue bing
 白净	bai jing
-KTV	
+#KTV
 白猫	bai mao
 白奴	bai nu
 超乎寻常	chao hu xun chang
@@ -93144,7 +93144,7 @@ KTV
 白点	bai dian
 白嫩	bai nen
 白鼠	bai shu
-KTV	
+#KTV
 白刃	bai ren
 的条件	de tiao jian
 白种人	bai zhong ren
@@ -93172,7 +93172,7 @@ KTV
 只到	zhi dao
 只恐	zhi kong
 只从	zhi cong
-K歌	
+#K歌
 只比	zhi bi
 只取	zhi qu
 只被	zhi bei
@@ -93213,7 +93213,7 @@ K歌
 嘴里一套	zui li yi tao
 世间万物	shi jian wan wu
 皇帝不急太监急	huang di bu ji tai jian ji
-K书	
+#K书
 哈里发	ha li fa
 只盼	zhi pan
 吃闲饭	chi xian fan
@@ -93264,7 +93264,7 @@ K书
 只恨	zhi hen
 只会	zhi hui
 的准备	de zhun bei
-K粉	
+#K粉
 咬断	yao duan
 只应	zhi ying
 吃里爬外	chi li pa wai
@@ -94103,8 +94103,8 @@ K粉
 轻骑	qing qi
 轻云	qing yun
 轻柔	qing rou
-LCD	
-LCD	
+#LCD
+#LCD
 轻盈	qing ying
 轻型	qing xing
 轻舟	qing zhou
@@ -94346,12 +94346,12 @@ LCD
 象形文字	xiang xing wen zi
 畏难	wei nan
 男朋友	nan peng you
-LED	
+#LED
 男朋友	nan peng you
 制造厂	zhi zao chang
 踩在	cai zai
 国有大中型企业	guo you da zhong xing qi ye
-LED	
+#LED
 四肢百骸	si zhi bai hai
 踩碎	cai sui
 制造商	zhi zao shang
@@ -94969,7 +94969,7 @@ LED
 四分	si fen
 四层	si ceng
 四届	si jie
-Linux	
+#Linux
 四座	si zuo
 跳神	tiao shen
 四库	si ku
@@ -95732,7 +95732,7 @@ Linux
 遮天	zhe tian
 四个现代化	si ge xian dai hua
 略一	lue yi
-Logo	
+#Logo
 为数不多	wei shu bu duo
 路上	lu shang
 路径	lu jing
@@ -96427,7 +96427,7 @@ Logo
 轻松愉快	qing song yu kuai
 困局	kun ju
 逸事	yi shi
-4S店	
+#4S店
 免礼	mian li
 免官	mian guan
 免冠	mian guan
@@ -96661,7 +96661,7 @@ Logo
 为王	wei wang
 蹲下	dun xia
 国将不国	guo jiang bu guo
-LG	
+#LG
 为妻	wei qi
 轻装上阵	qing zhuang shang zhen
 为期	wei qi
@@ -96728,7 +96728,7 @@ LG
 为之	wei zhi
 为空	wei kong
 为善	wei shan
-LP	
+#LP
 为它	wei ta
 为外	wei wai
 为乐	wei le
@@ -97510,7 +97510,7 @@ LP
 同组	tong zu
 也来	ye lai
 同意	tong yi
-Maxthon	
+#Maxthon
 同乡	tong xiang
 也给	ye gei
 同音	tong yin
@@ -97529,13 +97529,13 @@ Maxthon
 保障	bao zhang
 保险	bao xian
 分子式	fen zi shi
-MBA	
+#MBA
 分子式	fen zi shi
 集散	ji san
 公子哥	gong zi ge
 公子哥儿	gong zi ge er
 赔了夫人又折兵	pei le fu ren you zhe bing
-MBA	
+#MBA
 集萃	ji cui
 看出了	kan chu le
 集聚	ji ju
@@ -98565,7 +98565,7 @@ MBA
 肉香	rou xiang
 梦溪笔谈	meng xi bi tan
 樊篱	fan li
-乔治·华盛顿	
+#乔治·华盛顿
 肉痛	rou tong
 保温瓶	bao wen ping
 攀亲	pan qin
@@ -98990,7 +98990,7 @@ MBA
 看见了	kan jian le
 八辈子	ba bei zi
 山参	shan shen
-MMC卡	
+#MMC卡
 山鸡	shan ji
 山海	shan hai
 楚楚动人	chu chu dong ren
@@ -99156,7 +99156,7 @@ MMC卡
 雨恨云愁	yu hen yun chou
 梵文	fan wen
 败事有余	bai shi you yu
-80后	
+#80后
 同心协力	tong xin xie li
 贼心不死	zei xin bu si
 见怪不怪	jian guai bu guai
@@ -99317,13 +99317,13 @@ MMC卡
 公序良俗	gong xu liang su
 内容	nei rong
 财富	cai fu
-MPA	
+#MPA
 带到	dai dao
 周旋到底	zhou xuan dao di
 崇敬	chong jing
 贮藏	zhu cang
 带薪	dai xin
-MPA	
+#MPA
 华盛顿	hua sheng dun
 华盛顿	hua sheng dun
 带出	dai chu
@@ -99344,7 +99344,7 @@ MPA
 岁寒三友	sui han san you
 贮存	zhu cun
 分之三	fen zhi san
-MP3	
+#MP3
 带在	dai zai
 凯旋而归	kai xuan er gui
 带大	dai da
@@ -99352,7 +99352,7 @@ MP3
 崇奉	chong feng
 带领	dai ling
 带有	dai you
-MPGE	
+#MPGE
 带刺	dai ci
 带坏	dai huai
 分之二	fen zhi er
@@ -99392,7 +99392,7 @@ MPGE
 集成度	ji cheng du
 带去	dai qu
 分之四	fen zhi si
-MP4	
+#MP4
 带回	dai hui
 看着办	kan zhe ban
 带路	dai lu
@@ -99429,7 +99429,7 @@ MP4
 同室操戈	tong shi cao ge
 贮槽	zhu cao
 分之五	fen zhi wu
-MP5	
+#MP5
 公安机关	gong an ji guan
 卡宾枪	ka bin qiang
 带枪	dai qiang
@@ -99616,7 +99616,7 @@ MP5
 刚刚	gang gang
 公共财产	gong gong cai chan
 峨嵋	e mei
-mRNA	
+#mRNA
 保护层	bao hu ceng
 峨眉	e mei
 雨打风吹	yu da feng chui
@@ -99630,7 +99630,7 @@ mRNA
 谷米	gu mi
 谷类	gu lei
 保护神	bao hu shen
-卡拉OK	
+#卡拉OK
 典礼	dian li
 谷底	gu di
 谷粒	gu li
@@ -99750,12 +99750,12 @@ mRNA
 岣嵝	gou lou
 见见	jian jian
 也可以	ye ke yi
-MSN	
+#MSN
 见怪	jian guai
 也可以是	ye ke yi shi
 翻版必究	fan ban bi jiu
 见习	jian xi
-MSN	
+#MSN
 也可以	ye ke yi
 梦中情人	meng zhong qing ren
 见惯	jian guan
@@ -99890,7 +99890,7 @@ MSN
 败北	bai bei
 败絮	bai xu
 败退	bai tui
-MTV	
+#MTV
 父女	fu nu
 督战	du zhan
 叔侄	shu zhi
@@ -99923,7 +99923,7 @@ MTV
 公益金	gong yi jin
 内部矛盾	nei bu mao dun
 罔顾	wang gu
-863计划	
+#863计划
 赔款	pei kuan
 欲速不达	yu su bu da
 也并不是	ye bing bu shi
@@ -99939,7 +99939,7 @@ MTV
 赔罪	pei zui
 欲速则不达	yu su ze bu da
 非亲非故	fei qin fei gu
-MM	
+#MM
 悲痛欲绝	bei tong yu jue
 公益事业	gong yi shi ye
 公益性	gong yi xing
@@ -100114,7 +100114,7 @@ MM
 分房	fen fang
 拜占庭	bai zhan ting
 分数	fen shu
-MPV	
+#MPV
 分差	fen cha
 分家	fen jia
 分生	fen sheng
@@ -100126,7 +100126,7 @@ MPV
 分之	fen zhi
 贫富	pin fu
 贫寒	pin han
-MPV	
+#MPV
 分成	fen cheng
 忿然	fen ran
 分解	fen jie
@@ -100780,11 +100780,11 @@ MPV
 屁话	pi hua
 囊萤夜读	nang ying ye du
 民主	min zhu
-NBA	
+#NBA
 快到	kuai dao
 屈从	qu cong
 快攻	kuai gong
-NBA	
+#NBA
 邮票	you piao
 快了	kuai le
 刷子	shua zi
@@ -101708,10 +101708,10 @@ NBA
 情事	qing shi
 怀恨	huai hen
 几天几夜	ji tian ji ye
-NGO	
+#NGO
 以正视听	yi zheng shi ting
 情迷	qing mi
-NGO	
+#NGO
 情变	qing bian
 恒生	heng sheng
 怀着	huai zhe
@@ -102491,7 +102491,7 @@ NGO
 懵懂无知	meng dong wu zhi
 习惯于	xi guan yu
 牺牲者	xi sheng zhe
-00后	
+#00后
 愤愤不平	fen fen bu ping
 慢慢吞吞	man man tun tun
 咫尺天涯	zhi chi tian ya
@@ -102618,7 +102618,7 @@ NGO
 必杀	bi sha
 必是	bi shi
 必能	bi neng
-Nokia	
+#Nokia
 几个世纪	ji ge shi ji
 屡次	lu ci
 几个国家	ji ge guo jia
@@ -103434,7 +103434,7 @@ Nokia
 屏风	ping feng
 习惯	xi guan
 慌里慌张	huang li huang zhang
-N个	
+#N个
 飞鹰	fei ying
 习字	xi zi
 飞翔	fei xiang
@@ -103552,8 +103552,8 @@ N个
 慢半拍	man ban pai
 尼加拉瓜	ni jia la gua
 事权	shi quan
-09五笔	
-〇九五笔	
+#09五笔
+#〇九五笔
 事关	shi guan
 恨透	hen tou
 事务	shi wu
@@ -103561,8 +103561,8 @@ N个
 事端	shi duan
 特别奖	te bie jiang
 事前	shi qian
-09速记	
-〇九速记	
+#09速记
+#〇九速记
 心如刀割	xin ru dao ge
 心如刀绞	xin ru dao jiao
 事例	shi li
@@ -104279,7 +104279,7 @@ N个
 烘云托月	hong yun tuo yue
 会把	hui ba
 会操	hui cao
-OCR	
+#OCR
 序幕	xu mu
 瓜棚	gua peng
 会稽	kuai ji
@@ -104699,7 +104699,7 @@ OCR
 灶具	zao ju
 庄股	zhuang gu
 社址	she zhi
-Office	
+#Office
 烤干	kao gan
 寿元	shou yuan
 备考	bei kao
@@ -105030,7 +105030,7 @@ Office
 烟消云散	yan xiao yun san
 断头台	duan tou tai
 广泛兴趣	guang fan xing qu
-OICQ	
+#OICQ
 炼油厂	lian you chang
 神游太虚	shen you tai xu
 炒面	chao mian
@@ -105522,7 +105522,7 @@ OICQ
 数见不鲜	shuo jian bu xian
 礼拜天	li bai tian
 粉末	fen mo
-OMG	
+#OMG
 粉皮	fen pi
 视其	shi qi
 爬山虎	pa shan hu
@@ -105633,7 +105633,7 @@ OMG
 数以百计	shu yi bai ji
 断乳	duan ru
 扇形	shan xing
-OneNote	
+#OneNote
 断肢	duan zhi
 礼服	li fu
 礼貌	li mao
@@ -106069,9 +106069,9 @@ OneNote
 个方面	ge fang mian
 房龙	fang long
 迷朦	mi meng
-Opera	
-OPEC	
-OpenOffice	
+#Opera
+#OPEC
+#OpenOffice
 迷彩	mi cai
 迷航	mi hang
 祖宗十八代	zu zong shi ba dai
@@ -106677,7 +106677,7 @@ OpenOffice
 那里面的	na li mian de
 炸酱面	zha jiang mian
 那里面	na li mian
-O形	
+#O形
 凿开	zao kai
 房产商	fang chan shang
 叛逆者	pan ni zhe
@@ -106704,7 +106704,7 @@ O形
 全部的	quan bu de
 房门口	fang men kou
 全新的	quan xin de
-OK	
+#OK
 那里边	na li bian
 粒度	li du
 精疲力尽	jing pi li jin
@@ -106734,7 +106734,7 @@ OK
 禅机	chan ji
 烂片	lan pian
 烂醉	lan zui
-OUT了	
+#OUT了
 各部门	ge bu men
 粒状	li zhuang
 各部门	ge bu men
@@ -107329,10 +107329,10 @@ OUT了
 宽赦	kuan she
 差远	cha yuan
 放荡不羁	fang dang bu ji
-PageDown	
+#PageDown
 宽严	kuan yan
 宛若天成	wan ruo tian cheng
-PageUp	
+#PageUp
 宽待	kuan dai
 差得	cha de
 差役	chai yi
@@ -107364,7 +107364,7 @@ PageUp
 室内	shi nei
 窃贼	qie zei
 安东尼奥	an dong ni ao
-Panasonic	
+#Panasonic
 宽心	kuan xin
 宽屏	kuan ping
 差事	chai shi
@@ -107395,7 +107395,7 @@ Panasonic
 窃据	qie ju
 窥探	kui tan
 安营扎寨	an ying zha zhai
-Party	
+#Party
 安哥拉	an ge la
 弈棋	yi qi
 密切关注	mi qie guan zhu
@@ -107408,7 +107408,7 @@ Party
 密切相关	mi qie xiang guan
 密苏里	mi su li
 羞花闭月	xiu hua bi yue
-Pause	
+#Pause
 宽阔	kuan kuo
 窒闷	zhi men
 施工单位	shi gong dan wei
@@ -107670,7 +107670,7 @@ Pause
 变换	bian huan
 灾难片	zai nan pian
 实验中学	shi yan zhong xue
-PC机	
+#PC机
 客运中心	ke yun zhong xin
 变样	bian yang
 生鱼片	sheng yu pian
@@ -107710,7 +107710,7 @@ PC机
 官至	guan zhi
 寄到	ji dao
 官营	guan ying
-PDA	
+#PDA
 宠臣	chong chen
 官职	guan zhi
 突出	tu chu
@@ -107753,7 +107753,7 @@ PDA
 宏远	hong yuan
 生而平等	sheng er ping deng
 宠幸	chong xing
-PDF	
+#PDF
 官场	guan chang
 生态环境	sheng tai huan jing
 生存环境	sheng cun huan jing
@@ -108412,7 +108412,7 @@ PDF
 家长会	jia zhang hui
 旅行社	lu xing she
 着迷	zhao mi
-Photoshop	
+#Photoshop
 着床	zhuo chuang
 着火	zhao huo
 旅行家	lu xing jia
@@ -108442,7 +108442,7 @@ Photoshop
 着眼点	zhuo yan dian
 生长点	sheng zhang dian
 着魔	zhao mo
-pH值	
+#pH值
 旗人	qi ren
 放长线钓大鱼	fang chang xian diao da yu
 羊皮卷	yang pi juan
@@ -108789,7 +108789,7 @@ pH值
 农闲	nong xian
 农产	nong chan
 宫阙	gong que
-PKU	
+#PKU
 宫闱	gong wei
 宫门	gong men
 农奴	nong nu
@@ -108821,7 +108821,7 @@ PKU
 军警	jun jing
 冥思苦想	ming si ku xiang
 冤孽	yuan nie
-PLA	
+#PLA
 窝边草	wo bian cao
 善罢甘休	shan ba gan xiu
 成为了	cheng wei le
@@ -108888,7 +108888,7 @@ PLA
 军制	jun zhi
 穷困	qiong kun
 军界	jun jie
-PLMM	
+#PLMM
 军内	jun nei
 农转非	nong zhuan fei
 之所以	zhi suo yi
@@ -109366,7 +109366,7 @@ PLMM
 客体	ke ti
 客人	ke ren
 家庭作业	jia ting zuo ye
-PowerPoint	
+#PowerPoint
 客位	ke wei
 客户经理	ke hu jing li
 变成	bian cheng
@@ -109526,7 +109526,7 @@ PowerPoint
 之象	zhi xiang
 寤寐思服	wu mei si fu
 之四	zhi si
-PPLL	
+#PPLL
 之罪	zhi zui
 之思	zhi si
 之路	zhi lu
@@ -109538,7 +109538,7 @@ PPLL
 之林	zhi lin
 之巅	zhi dian
 牛羊肉	niu yang rou
-PPMM	
+#PPMM
 之梦	zhi meng
 之欲	zhi yu
 之见	zhi jian
@@ -109628,10 +109628,10 @@ PPMM
 写字楼	xie zi lou
 写字板	xie zi ban
 字字句句	zi zi ju ju
-PPS	
+#PPS
 之根	zhi gen
 之术	zhi shu
-PPT	
+#PPT
 冤冤相报何时了	yuan yuan xiang bao he shi liao
 之私	zhi si
 牢笼	lao long
@@ -109649,7 +109649,7 @@ PPT
 羞羞答答	xiu xiu da da
 安安稳稳	an an wen wen
 之冬	zhi dong
-PPT	
+#PPT
 窃窃私语	qie qie si yu
 之痛	zhi tong
 之美	zhi mei
@@ -109845,7 +109845,7 @@ PPT
 窑子	yao zi
 宪兵队	xian bing dui
 宾主	bin zhu
-PRC	
+#PRC
 鹤壁	he bi
 生搬硬套	sheng ban ying tao
 穿在	chuan zai
@@ -109880,7 +109880,7 @@ PRC
 富源	fu yuan
 富婆	fu po
 窑洞	yao dong
-PrintScreen	
+#PrintScreen
 实质是	shi zhi shi
 容量	rong liang
 宾州	bin zhou
@@ -109905,7 +109905,7 @@ PrintScreen
 官逼民反	guan bi min fan
 穿帮	chuan bang
 安提瓜	an ti gua
-FrontPage	
+#FrontPage
 守护神	shou hu shen
 富户	fu hu
 穿凿	chuan zao
@@ -109978,7 +109978,7 @@ FrontPage
 空运	kong yun
 空难	kong nan
 宁海	ning hai
-PSC	
+#PSC
 官样文章	guan yang wen zhang
 空码	kong ma
 善莫大焉	shan mo da yan
@@ -109997,8 +109997,8 @@ PSC
 穷极无聊	qiong ji wu liao
 生机勃勃	sheng ji bo bo
 蛮横无理	man heng wu li
-PS2	
-PS2接口	
+#PS2
+#PS2接口
 空地	kong di
 空壳	kong ke
 空城	kong cheng
@@ -110273,7 +110273,7 @@ PS2接口
 完美主义者	wan mei zhu yi zhe
 寒舍	han she
 成立了	cheng li le
-PUB	
+#PUB
 生产队	sheng chan dui
 生产出来	sheng chan chu lai
 完美主义	wan mei zhu yi
@@ -110282,7 +110282,7 @@ PUB
 审美观	shen mei guan
 冠盖云集	guan gai yun ji
 察颜观色	cha yan guan se
-PC	
+#PC
 善举	shan ju
 鹤立鸡群	he li ji qun
 寒碜	han chen
@@ -110293,7 +110293,7 @@ PC
 善用	shan yong
 生产商	sheng chan shang
 寒气	han qi
-PE	
+#PE
 成立于	cheng li yu
 寒士	han shi
 完美无瑕	wan mei wu xia
@@ -110315,7 +110315,7 @@ PE
 寒微	han wei
 寒热	han re
 字里行间	zi li hang jian
-pH	
+#pH
 善行	shan xing
 善睐	shan lai
 寒江	han jiang
@@ -110351,7 +110351,7 @@ pH
 善为	shan wei
 寒山	han shan
 寒带	han dai
-p.m.	
+#p.m.
 寒心	han xin
 善心	shan xin
 寒风	han feng
@@ -110370,16 +110370,16 @@ p.m.
 寒窗	han chuang
 盛况空前	sheng kuang kong qian
 寤寐	wu mei
-PP	
+#PP
 善报	shan bao
 生产技术	sheng chan ji shu
 寒邪	han xie
 寒酸	han suan
 生产要素	sheng chan yao su
 生产关系	sheng chan guan xi
-PS	
-P.S.	
-p.s.	
+#PS
+#P.S.
+#p.s.
 善根	shan gen
 寒梅	han mei
 安闲自得	an xian zi de
@@ -110433,7 +110433,7 @@ p.s.
 生猛海鲜	sheng meng hai xian
 安知	an zhi
 安魂	an hun
-PVC	
+#PVC
 安在	an zai
 施加压力	shi jia ya li
 安如泰山	an ru tai shan
@@ -111684,7 +111684,7 @@ PVC
 钱塘江	qian tang jiang
 勤学	qin xue
 针尖	zhen jian
-QFII	
+#QFII
 鞋油	xie you
 针头	zhen tou
 包你满意	bao ni man yi
@@ -113212,7 +113212,7 @@ QFII
 钱钟书	qian zhong shu
 钓饵	diao er
 钢铁长城	gang tie chang cheng
-QQ游戏	
+#QQ游戏
 千岛湖	qian dao hu
 多多少少	duo duo shao shao
 钩沉	gou chen
@@ -113221,10 +113221,10 @@ QQ游戏
 钩虫	gou chong
 皱皱巴巴	zhou zhou ba ba
 钢铁是怎样炼成的	gang tie shi zen yang lian cheng de
-QQ号码	
+#QQ号码
 铃儿响叮当	ling er xiang ding dang
-QQ号	
-QQ影音	
+#QQ号
+#QQ影音
 名垂史册	ming chui shi ce
 重重困难	chong chong kun nan
 重色轻友	zhong se qing you
@@ -113235,23 +113235,23 @@ QQ影音
 锤炼	chui lian
 钧座	jun zuo
 铆焊	mao han
-QQ会员	
+#QQ会员
 钦差	qin chai
 甜甜蜜蜜	tian tian mi mi
 久负盛名	jiu fu sheng ming
 忽然之间	hu ran zhi jian
-QQ空间	
+#QQ空间
 钦定	qin ding
 魑魅魍魉	chi mei wang liang
 急匆匆	ji cong cong
 铆钉	mao ding
 卿卿我我	qing qing wo wo
-QQ拼音	
+#QQ拼音
 钦慕	qin mu
 危急关头	wei ji guan tou
 多多关照	duo duo guan zhao
 铭牌	ming pai
-QQ五笔	
+#QQ五笔
 针锋相对	zhen feng xiang dui
 钓竿	diao gan
 怨怨相报	yuan yuan xiang bao
@@ -113268,7 +113268,7 @@ QQ五笔
 急急如丧家之犬	ji ji ru sang jia zhi quan
 钦犯	qin fan
 儿媳	er xi
-QQ群	
+#QQ群
 儿女	er nu
 勤勤恳恳	qin qin ken ken
 乖乖女	guai guai nu
@@ -113779,7 +113779,7 @@ QQ群
 重重	chong chong
 乖乖	guai guai
 锵锵	qiang qiang
-QQ	
+#QQ
 重挫	zhong cuo
 重返	chong fan
 重振	chong zhen
@@ -113811,7 +113811,7 @@ QQ
 重要	zhong yao
 鬼门关	gui men guan
 重述	chong shu
-Q币	
+#Q币
 重逢	chong feng
 重复	chong fu
 匀称	yun chen
@@ -113837,7 +113837,7 @@ Q币
 重犯	zhong fan
 重点	zhong dian
 重九	zhong jiu
-Q点	
+#Q点
 重婚	chong hun
 千里迢迢	qian li tiao tiao
 重做	chong zuo
@@ -114503,12 +114503,12 @@ Q点
 批转	pi zhuan
 搭界	da jie
 共荣圈	gong rong quan
-RAM	
+#RAM
 撒网	sa wang
 按劳分配	an lao fen pei
 挫败	cuo bai
 拒赔	ju pei
-RAM	
+#RAM
 扶贫	fu pin
 反恐怖	fan kong bu
 丘比特	qiu bi te
@@ -116605,7 +116605,7 @@ RAM
 托孤	tuo gu
 缸子	gang zi
 缺陷	que xian
-RMB	
+#RMB
 排除	pai chu
 排队	pai dui
 排险	pai xian
@@ -116797,10 +116797,10 @@ RMB
 播讲	bo jiang
 共同语言	gong tong yu yan
 托言	tuo yan
-RNA	
+#RNA
 近几年	jin ji nian
 扎营	zha ying
-RNA	
+#RNA
 近几年来	jin ji nian lai
 抽取	chou qu
 撕心裂肺	si xin lie fei
@@ -117212,7 +117212,7 @@ RNA
 挥霍	hui huo
 挖坑	wa keng
 卑之无甚高论	bei zhi wu shen gao lun
-RPG	
+#RPG
 控球	kong qiu
 按下	an xia
 挥之不去	hui zhi bu qu
@@ -117220,7 +117220,7 @@ RPG
 近万	jin wan
 打成一片	da cheng yi pian
 按理	an li
-RPG	
+#RPG
 抗生素	kang sheng su
 按上	an shang
 挥毫	hui hao
@@ -118188,7 +118188,7 @@ RPG
 播种机	bo zhong ji
 挡箭牌	dang jian pai
 鸦片	ya pian
-RTS	
+#RTS
 牙根	ya gen
 邪术	xie shu
 牙关	ya guan
@@ -118410,7 +118410,7 @@ RTS
 接管	jie guan
 拉稀	la xi
 接种	jie zhong
-RT	
+#RT
 拉紧	la jin
 接入	jie ru
 拉里	la li
@@ -119374,7 +119374,7 @@ RT
 横拍	heng pai
 横排	heng pai
 横握	heng wo
-SARS	
+#SARS
 横扫	heng sao
 核苷酸	he gan suan
 框框	kuang kuang
@@ -119611,7 +119611,7 @@ SARS
 患难与共	huan nan yu gong
 权重	quan zhong
 邸报	di bao
-ScrollLock	
+#ScrollLock
 中文版	zhong wen ban
 摹印	mo yin
 酸酸	suan suan
@@ -119700,7 +119700,7 @@ ScrollLock
 酸碱度	suan jian du
 校领导	xiao ling dao
 顶罪	ding zui
-SD卡	
+#SD卡
 顶峰	ding feng
 顶层	ding ceng
 权威性	quan wei xing
@@ -120305,8 +120305,8 @@ SD卡
 橡皮泥	xiang pi ni
 中游	zhong you
 中上游	zhong shang you
-Shift	
-Shit	
+#Shift
+#Shit
 覆没	fu mo
 中流	zhong liu
 中日	zhong ri
@@ -120523,7 +120523,7 @@ Shit
 中学为体	zhong xue wei ti
 桥头堡	qiao tou bao
 杨小凯	yang xiao kai
-SIM卡	
+#SIM卡
 五岁	wu sui
 五谷	wu gu
 杯酒释兵权	bei jiu shi bing quan
@@ -121132,7 +121132,7 @@ SIM卡
 覆雨翻云	fu yu fan yun
 森林	sen lin
 松林	song lin
-SM卡	
+#SM卡
 中央集权	zhong yang ji quan
 中华民国	zhong hua min guo
 中央情报局	zhong yang qing bao ju
@@ -121299,7 +121299,7 @@ SM卡
 机心	ji xin
 机翼	ji yi
 中情局	zhong qing ju
-500强	
+#500强
 机座	ji zuo
 机会	ji hui
 可以燎原	ke yi liao yuan
@@ -121435,7 +121435,7 @@ SM卡
 可燃性	ke ran xing
 格物	ge wu
 格局	ge ju
-Sony	
+#Sony
 粟米	su mi
 楼座	lou zuo
 核爆炸	he bao zha
@@ -121460,7 +121460,7 @@ Sony
 楼板	lou ban
 核糖核酸	he tang he suan
 楼梯	lou ti
-SOS	
+#SOS
 西双版纳	xi shuang ban na
 楼榭	lou xie
 格栅	ge shan
@@ -122003,7 +122003,7 @@ SOS
 片面	pian mian
 中科大	zhong ke da
 可想而之	ke xiang er zhi
-STD	
+#STD
 棋逢对手	qi feng dui shou
 句型	ju xing
 株型	zhu xing
@@ -122085,7 +122085,7 @@ STD
 中产阶层	zhong chan jie ceng
 西门子	xi men zi
 梯子	ti zi
-SB	
+#SB
 梯队	ti dui
 校际	xiao ji
 校队	xiao dui
@@ -122143,7 +122143,7 @@ SB
 梯田	ti tian
 中间力量	zhong jian li liang
 校办	xiao ban
-SM	
+#SM
 校内	xiao nei
 格兰特	ge lan te
 可塑性	ke su xing
@@ -122182,7 +122182,7 @@ SM
 中间站	zhong jian zhan
 校门	xiao men
 校点	jiao dian
-SUV	
+#SUV
 中间体	zhong jian ti
 标准件	biao zhun jian
 可兰经	ke lan jing
@@ -122618,7 +122618,7 @@ SUV
 筐子	kuang zi
 升幅	sheng fu
 升降	sheng jiang
-Tab	
+#Tab
 升限	sheng xian
 升压	sheng ya
 坚若磐石	jian ruo pan shi
@@ -122797,7 +122797,7 @@ Tab
 私力	si li
 私车	si che
 延边	yan bian
-TCL	
+#TCL
 私欲	si yu
 私分	si fen
 延展	yan zhan
@@ -123068,7 +123068,7 @@ TCL
 稻子	dao zi
 租金	zu jin
 相对主义	xiang dui zhu yi
-T型台	
+#T型台
 策动	ce dong
 策马	ce ma
 秋月春花	qiu yue chun hua
@@ -123166,7 +123166,7 @@ T型台
 复选框	fu xuan kuang
 私有权	si you quan
 透顶	tou ding
-TESOL	
+#TESOL
 透析	tou xi
 租税	zu shui
 乘胜追击	cheng sheng zhui ji
@@ -123263,7 +123263,7 @@ TESOL
 等边	deng bian
 入土为安	ru tu wei an
 等同	deng tong
-TF卡	
+#TF卡
 和平崛起	he ping jue qi
 等分	deng fen
 第二个	di er ge
@@ -123671,7 +123671,7 @@ TF卡
 自欺欺人	zi qi qi ren
 自食其言	zi shi qi yan
 处治	chu zhi
-Thinkpad	
+#Thinkpad
 稿源	gao yuan
 算清	suan qing
 算法	suan fa
@@ -123717,7 +123717,7 @@ Thinkpad
 和睦相处	he mu xiang chu
 处决	chu jue
 算准	suan zhun
-THU	
+#THU
 相得益彰	xiang de yi zhang
 处女	chu nu
 算做	suan zuo
@@ -124319,12 +124319,12 @@ THU
 笑出	xiao chu
 笑了	xiao le
 笑死	xiao si
-TMD	
+#TMD
 笑靥	xiao ye
 血肉丰满	xue rou feng man
 血盆大口	xue pen da kou
 贤达	xian da
-TMD	
+#TMD
 笑貌	xiao mao
 贤内助	xian nei zhu
 血雨腥风	xue yu xing feng
@@ -124414,7 +124414,7 @@ TMD
 想从	xiang cong
 秘藏	mi cang
 自由落体	zi you luo ti
-T恤衫	
+#T恤衫
 自由职业者	zi you zhi ye zhe
 想被	xiang bei
 想出	xiang chu
@@ -124494,7 +124494,7 @@ T恤衫
 想见	xiang jian
 颓败	tui bai
 自由民主	zi you min zhu
-TNND	
+#TNND
 科特迪瓦	ke te di wa
 想尽	xiang jin
 想必	xiang bi
@@ -124572,7 +124572,7 @@ TNND
 筹码	chou ma
 相视而笑	xiang shi er xiao
 秋月	qiu yue
-TOEFL	
+#TOEFL
 愁肠	chou chang
 秋后	qiu hou
 秋声	qiu sheng
@@ -124636,7 +124636,7 @@ TOEFL
 筹措	chou cuo
 筹拍	chou pai
 秋播	qiu bo
-TOSHIBA	
+#TOSHIBA
 筹募	chou mu
 秋枫	qiu feng
 秋季	qiu ji
@@ -125399,7 +125399,7 @@ TOSHIBA
 乘除	cheng chu
 简短	jian duan
 箭步	jian bu
-T台	
+#T台
 乘兴	cheng xing
 乘马	cheng ma
 冬运	dong yun
@@ -125471,7 +125471,7 @@ T台
 和颜悦色	he yan yue se
 乘风	cheng feng
 冬风	dong feng
-T恤	
+#T恤
 管闲事	guan xian shi
 乘以	cheng yi
 冬炼	dong lian
@@ -125829,7 +125829,7 @@ T恤
 自给自足	zi ji zi zu
 想来想去	xiang lai xiang qu
 紧箍	jin gu
-TXT	
+#TXT
 紧紧	jin jin
 系紧	xi jin
 紧凑	jin cou
@@ -126688,7 +126688,7 @@ TXT
 冰雪聪明	bing xue cong ming
 装出	zhuang chu
 装了	zhuang le
-装B	
+#装B
 逆境出强人	ni jing chu qiang ren
 装死	zhuang si
 凌云	ling yun
@@ -126775,7 +126775,7 @@ TXT
 装备	zhuang bei
 闭户	bi hu
 闺房	gui fang
-UFO	
+#UFO
 疲于应付	pi yu ying fu
 装料	zhuang liao
 壮族	zhuang zu
@@ -127072,9 +127072,9 @@ UFO
 甲苯	jia ben
 疲劳	pi lao
 闵行区	min hang qu
-甲A	
+#甲A
 甲子	jia zi
-甲B	
+#甲B
 甲鱼	jia yu
 甲辰	jia chen
 冰原	bing yuan
@@ -127884,7 +127884,7 @@ UFO
 闻风丧胆	wen feng sang dan
 野心勃勃	ye xin bo bo
 童心未泯	tong xin wei min
-60后	
+#60后
 闷雷	men lei
 问心无愧	wen xin wu kui
 前几天	qian ji tian
@@ -127894,12 +127894,12 @@ UFO
 闷热	men re
 疯长	feng zhang
 壮怀激烈	zhuang huai ji lie
-Unicode	
+#Unicode
 痛快淋漓	tong kuai lin li
 闷酒	men jiu
 闷头	men tou
 疯涨	feng zhang
-Unix	
+#Unix
 前段时间	qian duan shi jian
 闷响	men xiang
 闷哼	men heng
@@ -128170,7 +128170,7 @@ Unix
 速查	su cha
 速配	su pei
 慈善机构	ci shan ji gou
-UPS	
+#UPS
 立方根	li fang gen
 速算	su suan
 瘀积	yu ji
@@ -128479,17 +128479,17 @@ UPS
 遵从	zun cong
 尊荣	zun rong
 尊敬	zun jing
-USB	
+#USB
 冲昏了头脑	chong hun le tou nao
 闹中取静	nao zhong qu jing
 闲职	xian zhi
 冲向	chong xiang
-USB接口	
+#USB接口
 冲出	chong chu
 尊孔	zun kong
 美术出版社	mei shu chu ban she
 闲聊	xian liao
-USB	
+#USB
 冲劲	chong jin
 遒劲	qiu jing
 冲剂	chong ji
@@ -128780,7 +128780,7 @@ USB
 益智	yi zhi
 立马	li ma
 新闻频道	xin wen pin dao
-UC	
+#UC
 北美大陆	bei mei da lu
 益友	yi you
 立夏	li xia
@@ -128792,7 +128792,7 @@ UC
 立碑	li bei
 立春	li chun
 立领	li ling
-U形	
+#U形
 甲状腺肿	jia zhuang xian zhong
 甲状腺素	jia zhuang xian su
 甲状腺	jia zhuang xian
@@ -128861,7 +128861,7 @@ U形
 新闻公报	xin wen gong bao
 童心	tong xin
 痛痛快快	tong tong kuai kuai
-UN	
+#UN
 益寿	yi shou
 新闻社	xin wen she
 立业	li ye
@@ -128877,7 +128877,7 @@ UN
 童鞋	tong xie
 益鸟	yi niao
 里里外外	li li wai wai
-U盾	
+#U盾
 新闻报道	xin wen bao dao
 立誓	li shi
 瓶瓶罐罐	ping ping guan guan
@@ -129931,10 +129931,10 @@ U盾
 驽马	nu ma
 怒海	nu hai
 毁誉参半	hui yu can ban
-VCD	
+#VCD
 如鲠在喉	ru geng zai hou
 如此而已	ru ci er yi
-VCD	
+#VCD
 专有	zhuan you
 始有	shi you
 专用	zhuan yong
@@ -130495,7 +130495,7 @@ VCD
 毁天灭地	hui tian mie di
 姨表	yi biao
 姨丈	yi zhang
-911事件	
+#911事件
 犯不上	fan bu shang
 犯不上	fan bu shang
 逛街	guang jie
@@ -130851,7 +130851,7 @@ VCD
 卖房	mai fang
 猫头鹰	mao tou ying
 杂粮	za liang
-VIP	
+#VIP
 韦小宝	wei xiao bao
 卖官	mai guan
 卖家	mai jia
@@ -130861,7 +130861,7 @@ VIP
 好学生	hao xue sheng
 女流之辈	nu liu zhi bei
 点头之交	dian tou zhi jiao
-VIP	
+#VIP
 卖方	mai fang
 妙方	miao fang
 肃然	su ran
@@ -131452,7 +131452,7 @@ VIP
 市售	shi shou
 市斤	shi jin
 市树	shi shu
-985工程	
+#985工程
 贺岁片	he sui pian
 九八五笔	jiu ba wu bi
 妖术	yao shu
@@ -131536,7 +131536,7 @@ VIP
 隶属于	li shu yu
 违者	wei zhe
 好事者	hao shi zhe
-90后	
+#90后
 恳求	ken qiu
 加元	jia yuan
 好几天	hao ji tian
@@ -131597,7 +131597,7 @@ VIP
 好几次	hao ji ci
 别以为	bie yi wei
 加力	jia li
-90度	
+#90度
 韧度	ren du
 加固	jia gu
 韬略	tao lue
@@ -131710,13 +131710,13 @@ VIP
 乩语	ji yu
 刀身	dao shen
 专业	zhuan ye
-VOA	
+#VOA
 点菜	dian cai
 点到	dian dao
 九年	jiu nian
 灵芝	ling zhi
 点歌	dian ge
-VOA	
+#VOA
 灵巧	ling qiao
 点苍	dian cang
 灵药	ling yao
@@ -132409,8 +132409,8 @@ VOA
 娴静	xian jing
 半球	ban qiu
 嫌恶	xian wu
-9·18事变	
-9·11事件	
+#9·18事变
+#9·11事件
 姣丽	jiao li
 半径	ban jing
 如闻其声	ru wen qi sheng
@@ -132452,7 +132452,7 @@ VOA
 姘居	pin ju
 好整以暇	hao zheng yi xia
 独立性	du li xing
-960万平方公里	
+#960万平方公里
 嫉恨	ji hen
 半段	ban duan
 半米	ban mi
@@ -133667,7 +133667,7 @@ VOA
 仁政	ren zheng
 建政	jian zheng
 低声下气	di sheng xia qi
-人均GDP	
+#人均GDP
 值班	zhi ban
 佳丽	jia li
 佳期	jia qi
@@ -134263,13 +134263,13 @@ VOA
 余华	yu hua
 合法性	he fa xing
 传染性	chuan ran xing
-Windows7	
+#Windows7
 合法性	he fa xing
 传染性	chuan ran xing
-WindowXP	
-Windows	
-Windows操作系统	
-Windows系统	
+#WindowXP
+#Windows
+#Windows操作系统
+#Windows系统
 叙事	xu shi
 余庆	yu qing
 斜视	xie shi
@@ -135329,7 +135329,7 @@ Windows系统
 偏重	pian zhong
 俯首	fu shou
 偏振	pian zhen
-Word	
+#Word
 人质	ren zhi
 人神共愤	ren shen gong fen
 俯拾	fu shi
@@ -135395,7 +135395,7 @@ Word
 俯仰	fu yang
 偏低	pian di
 人们	ren men
-WOW	
+#WOW
 伙伴	huo ban
 人伦	ren lun
 创业维艰	chuang ye wei jian
@@ -135486,7 +135486,7 @@ WOW
 人生中	ren sheng zhong
 侦察机	zhen cha ji
 住宅楼	zhu zhai lou
-WPS	
+#WPS
 人生自古谁无死	ren sheng zi gu shui wu si
 偃旗息鼓	yan qi xi gu
 傧相	bin xiang
@@ -135992,7 +135992,7 @@ WPS
 伤了	shang le
 傻子	sha zi
 合金	he jin
-傻B	
+#傻B
 建筑队	jian zhu dui
 傻劲	sha jin
 伤筋动骨一百天	shang jin dong gu yi bai tian
@@ -136082,7 +136082,7 @@ WPS
 伤风	shang feng
 傻事	sha shi
 建筑业	jian zhu ye
-WTO	
+#WTO
 傻瓜	sha gua
 信息熵	xin xi shang
 建筑业	jian zhu ye
@@ -136090,7 +136090,7 @@ WTO
 便利店	bian li dian
 信息库	xin xi ku
 信息社会	xin xi she hui
-WTO	
+#WTO
 休息室	xiu xi shi
 偷香窃玉	tou xiang qie yu
 合家	he jia
@@ -136184,7 +136184,7 @@ WTO
 位阶	wei jie
 人间凶器	ren jian xiong qi
 倍频	bei pin
-WC	
+#WC
 建立在	jian li zai
 建立在	jian li zai
 位面	wei mian
@@ -136235,7 +136235,7 @@ WC
 位卑	wei bei
 伏羲氏	fu xi shi
 人间极乐	ren jian ji le
-WS	
+#WS
 位相	wei xiang
 位处	wei chu
 位移	wei yi
@@ -138096,7 +138096,7 @@ WS
 绝活儿	jue huo er
 缩头乌龟	suo tou wu gui
 经济危机	jing ji wei ji
-X染色体	
+#X染色体
 经济援助	jing ji yuan zhu
 红小兵	hong xiao bing
 经济损失	jing ji sun shi
@@ -138417,8 +138417,8 @@ X染色体
 强笑	qiang xiao
 或称	huo cheng
 强自	qiang zi
-约翰·克利斯朵夫	
-约翰·克里斯朵夫	
+#约翰·克利斯朵夫
+#约翰·克里斯朵夫
 强壮	qiang zhuang
 强装	qiang zhuang
 张口闭口	zhang kou bi kou
@@ -138441,7 +138441,7 @@ X染色体
 强似	qiang si
 强人	qiang ren
 强健	qiang jian
-X光线	
+#X光线
 缴费	jiao fei
 绳缆	sheng lan
 绵绵	mian mian
@@ -138571,7 +138571,7 @@ X光线
 幼雏	you chu
 卷首	juan shou
 幼托	you tuo
-xlsb	
+#xlsb
 幼树	you shu
 细枝	xi zhi
 细查	xi cha
@@ -138675,14 +138675,14 @@ xlsb
 遗嘱	yi zhu
 哭爹叫娘	ku die jiao niang
 划分为	hua fen wei
-XML	
+#XML
 贵国	gui guo
 骨肉团圆	gu rou tuan yuan
 幽思	you si
 贵为	gui wei
 纳为	na wei
 划分为	hua fen wei
-XML	
+#XML
 贵贱	gui jian
 遗赠	yi zeng
 井冈山	jing gang shan
@@ -139708,7 +139708,7 @@ XML
 弱电	ruo dian
 绞杀	jiao sha
 弱光	ruo guang
-X光	
+#X光
 弹唱	tan chang
 弹起	tan qi
 约束力	yue shu li
@@ -139749,7 +139749,7 @@ X光
 乡亲们	xiang qin men
 缓冲器	huan chong qi
 缔结	di jie
-X线	
+#X线
 绞线	jiao xian
 弹弓	dan gong
 绞缠	jiao chan
@@ -140209,7 +140209,7 @@ X线
 强身健体	qiang shen jian ti
 音信	yin xin
 编译器	bian yi qi
-X射线	
+#X射线
 统计结果	tong ji jie guo
 音韵	yin yun
 统统	tong tong
@@ -141259,7 +141259,7 @@ X射线
 就寝	jiu qin
 永安	yong an
 永乐	yong le
-Y染色体	
+#Y染色体
 永久	yong jiu
 京报	jing bao
 就把	jiu ba
@@ -152761,7 +152761,7 @@ Y染色体
 凛冬	lin dong
 凛凛	lin lin
 吝于	lin yu
-〇九	
+#〇九
 伶仃	ling ding
 伶俜	ling ping
 灵川	ling chuan
@@ -164448,121 +164448,121 @@ Y染色体
 靠齐	kao qi
 瞋目	chen mu
 甴曱	zha yue
-大V	
-抖M	
-抖S	
-分P	
-加V	
-3Q大战	
-AC米兰	
-AE86	
-AE特效	
-AI换脸	
-AK47	
-AV画质	
-Av模式	
-AV男优	
-CC字幕	
-CV大法	
-C哩C哩	
-C位出道	
-E人E本	
-E迅阿金	
-E迅速记	
-E迅速录	
-E迅味道	
-get到	
-GIF图	
-iOS版	
-IT之家	
-i了i了	
-K歌之王	
-low逼	
-Mac版	
-MG动画	
-nm离谱	
-nm制程	
-OTG线	
-out了	
-pos机	
-PP助手	
-PS痕迹	
-py交易	
-QQ表情	
-QQ宠物	
-QQ窗口	
-QQ登录	
-QQ等级	
-QQ电话	
-QQ飞车	
-QQ格式	
-QQ好友	
-QQ红包	
-QQ截图	
-QQ看点	
-QQ联系	
-QQ聊天	
-QQ群号	
-QQ群内	
-QQ视频	
-QQ双开	
-QQ提醒	
-QQ头像	
-QQ团队	
-QQ网吧	
-QQ消息	
-QQ小冰	
-QQ旋风	
-QQ音乐	
-QQ邮箱	
-QQ语音	
-QQ账号	
-QQ资料	
-SOD蜜	
-T字路口	
-UI界面	
-UI设计	
-USB口	
-USB线	
-UX设计	
-V+会员	
-VR眼镜	
-阿Sir	
-绑定QQ	
-不要B脸	
-车载U盘	
-触控ID	
-大E了啊	
-大VIP	
-电脑QQ	
-多啦A梦	
-哆啦A梦	
-发我QQ	
-回T退订	
-加个QQ	
-加你QQ	
-加我QQ	
-裸眼3D	
-芒果TV	
-没点B数	
-面容ID	
-内心OS	
-你TM的	
-气垫BB	
-全民K歌	
-手机QQ	
-腾讯QQ	
-头文字D	
-小B崽子	
-小声bb	
-笑cry	
-兄dei	
-要点B脸	
-真TM的	
-真人CS	
-真人PK	
-他（她）	
-98五笔	
+#大V
+#抖M
+#抖S
+#分P
+#加V
+#3Q大战
+#AC米兰
+#AE86
+#AE特效
+#AI换脸
+#AK47
+#AV画质
+#Av模式
+#AV男优
+#CC字幕
+#CV大法
+#C哩C哩
+#C位出道
+#E人E本
+#E迅阿金
+#E迅速记
+#E迅速录
+#E迅味道
+#get到
+#GIF图
+#iOS版
+#IT之家
+#i了i了
+#K歌之王
+#low逼
+#Mac版
+#MG动画
+#nm离谱
+#nm制程
+#OTG线
+#out了
+#pos机
+#PP助手
+#PS痕迹
+#py交易
+#QQ表情
+#QQ宠物
+#QQ窗口
+#QQ登录
+#QQ等级
+#QQ电话
+#QQ飞车
+#QQ格式
+#QQ好友
+#QQ红包
+#QQ截图
+#QQ看点
+#QQ联系
+#QQ聊天
+#QQ群号
+#QQ群内
+#QQ视频
+#QQ双开
+#QQ提醒
+#QQ头像
+#QQ团队
+#QQ网吧
+#QQ消息
+#QQ小冰
+#QQ旋风
+#QQ音乐
+#QQ邮箱
+#QQ语音
+#QQ账号
+#QQ资料
+#SOD蜜
+#T字路口
+#UI界面
+#UI设计
+#USB口
+#USB线
+#UX设计
+#V+会员
+#VR眼镜
+#阿Sir
+#绑定QQ
+#不要B脸
+#车载U盘
+#触控ID
+#大E了啊
+#大VIP
+#电脑QQ
+#多啦A梦
+#哆啦A梦
+#发我QQ
+#回T退订
+#加个QQ
+#加你QQ
+#加我QQ
+#裸眼3D
+#芒果TV
+#没点B数
+#面容ID
+#内心OS
+#你TM的
+#气垫BB
+#全民K歌
+#手机QQ
+#腾讯QQ
+#头文字D
+#小B崽子
+#小声bb
+#笑cry
+#兄dei
+#要点B脸
+#真TM的
+#真人CS
+#真人PK
+#他（她）
+#98五笔
 阿巴阿巴	a ba a ba
 阿尔法狗	a er fa gou
 阿尔卡特	a er ka te
@@ -167937,8 +167937,8 @@ VR眼镜
 二级域名	er ji yu ming
 二阶魔方	er jie mo fang
 二连浩特	er lian hao te
-二〇〇〇	
-二〇三五	
+#二〇〇〇
+#二〇三五
 二零一零	er ling yi ling
 二流报纸	er liu bao zhi
 二路汽车	er lu qi che
@@ -169014,12 +169014,12 @@ VR眼镜
 狗拿耗子	gou na hao zi
 狗年春晚	gou nian chun wan
 狗屁不如	gou pi bu ru
-狗神6啊	
+#狗神6啊
 狗头保命	gou tou bao ming
 狗头表情	gou tou biao qing
 狗尾巴草	gou wei ba cao
 狗眼看人	gou yan kan ren
-狗子6啊	
+#狗子6啊
 构成犯罪	gou cheng fan zui
 构造函数	gou zao han shu
 购房合同	gou fang he tong
@@ -170305,7 +170305,7 @@ VR眼镜
 基本原理	ji ben yuan li
 基本准则	ji ben zhun ze
 基本字根	ji ben zi gen
-基操勿6	
+#基操勿6
 基操勿六	ji cao wu liu
 基层群众	ji ceng qun zhong
 基层组织	ji ceng zu zhi
@@ -172315,7 +172315,7 @@ VR眼镜
 淋病梅毒	lin bing mei du
 淋漓酣畅	lin li han chang
 凛然正气	lin ran zheng qi
-〇九大法	
+#〇九大法
 伶仃孤苦	ling ding gu ku
 灵丹圣药	ling dan sheng yao
 灵光一现	ling guang yi xian
@@ -173957,7 +173957,7 @@ VR眼镜
 拼了命地	pin le ming di
 拼死拼活	pin si pin huo
 拼写错误	pin xie cuo wu
-拼音9键	
+#拼音9键
 拼音词库	pin yin ci ku
 拼音跟打	pin yin gen da
 拼音加加	pin yin jia jia
@@ -178309,7 +178309,7 @@ VR眼镜
 吾谁与归	wu shui yu gui
 吾悦广场	wu yue guang chang
 五爱论坛	wu ai lun tan
-五笔9键	
+#五笔9键
 五笔跟打	wu bi gen da
 五笔加加	wu bi jia jia
 五笔九键	wu bi jiu jian
@@ -179200,7 +179200,7 @@ VR眼镜
 幸福指数	xing fu zhi shu
 幸会幸会	xing hui xing hui
 幸甚至哉	xing shen zhi zai
-幸运52	
+#幸运52
 幸运数字	xing yun shu zi
 性别差异	xing bie cha yi
 性别红利	xing bie hong li
@@ -181457,7 +181457,7 @@ VR眼镜
 长跪不起	chang gui bu qi
 长棍面包	chang gun mian bao
 长见识了	zhang jian shi le
-长江7号	
+#长江7号
 长江大桥	chang jiang da qiao
 长江二桥	chang jiang er qiao
 长江七号	chang jiang qi hao
