@@ -68,7 +68,10 @@ engine:
     - table_translator
     - history_translator@repeat_last_input  # 上屏最后一次输入
     - lua_translator@helper                 # 帮助
-    - lua_translator@time_date              # 时间、日期
+    - lua_translator@date_translator        # 时间、日期、星期
+    - lua_translator@lunar                  # 农历
+    - lua_translator@unicode                # Unicode
+    - lua_translator@number_translator      # 数字、金额大写
     - lua_translator@force_gc               # 暴力 GC
 speller:
   auto_select: true               # 自动上屏
@@ -112,10 +115,23 @@ traditionalize:
   #  opencc_config: t2hk.json  # 繁 -> 香港
   #  opencc_config: s2tw.json  # 簡 -> 臺灣標準
   #  opencc_config: s2twp.json # 簡 -> 臺灣片語
+  tags: [ abc, number, gregorian_to_lunar ]  # 限制在对应 tag，不对其他如反查的内容做简繁转换
  
 lua_reverse_db:               # 拆分提示
   spelling: wb_spelling
   code: wb_spelling
+
+# Lua 配置: 日期、时间、星期、ISO 8601、时间戳的触发关键字
+date_translator:
+  date: date       # 日期： 2022-11-29
+  time: time       # 时间： 18:13
+  week: week       # 星期： 星期二
+#  datetime: dt   # ISO 8601： 2022-11-29T18:13:11+08:00
+#  timestamp: ts  # 时间戳： 1669716794
+
+# Lua 配置：农历的触发关键字
+lunar: nl  # 农历： 二〇二三年冬月二十 癸卯年（兔）冬月二十
+
 
 # Emoji
 # 来源：https://github.com/rime/rime-emoji
@@ -129,7 +145,6 @@ repeat_last_input:    # 重复最后一次上屏
   initial_quality: 1
 
 punctuator:
-  import_preset: default
   import_preset: symbols
 
 recognizer:
