@@ -1,7 +1,3 @@
--- 以词定字，默认为左右中括号 [ ]
--- 来源：https://github.com/BlindingDark/rime-lua-select-character
-select_character_processor = require("select_character")
-
 -- 过滤生僻字
 core = require("core_filter")
 
