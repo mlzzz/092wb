@@ -10,24 +10,24 @@
 |超集|Ctrl + Shift + U|生僻字|✔|✔|✔|✔|
 |繁简|Ctrl + Shift + F|简繁切换|✔|✔|✔|✔|✔|
 |Emoji|Ctrl + Shift + M|:smile:|✔|✔|✔|✔|
-|大写金额|大写字母 + 数字|任意大写|✔|✔|✔|✔|✔|
+|大写金额|R(大写) + 数字|任意大写|✔|✔|✔|✔|✔|
 |拼音反查|z键|反查五笔编码|✔|✔|✔|✔|✔|
 |特殊符号|zi + 编码|特殊符号|✔|✔|✔|✔|✔|
 |重复上屏|z键|重复上一次输入|✔|✔|✔|✔|✔|
 |上屏注释|Ctrl + Shift + Return||✔|✔|✔|✔|✔|
-|短语|大写字母+编码|任意大写|✔|✔|✔|✔|✔|
-|日期|jahe|日期|✔|✔|✔|✔|✔|
-|时间|jfuj|系统时间|✔|✔|✔|✔|✔|
-|节气|abet|24节气|✔|✔|✔|✔|✔|
-|农历|pkdl|农历|✔|✔|✔|✔|✔|
+|日期|date|日期|✔|✔|✔|✔|✔|
+|时间|time|系统时间|✔|✔|✔|✔|✔|
+|农历|nl|农历|✔|✔|✔|✔|✔|
 |全角|Shift + Space|全、半角切换|✔|✔|✔|✔|✔|
 |英文标点|Shift + .|中文状态输英文标点|✔|✔|✔|✔|✔|
 |2 3选重|；‘|分号、引号|✔|✔|✔|✔|✔|
-|1-10选重|数字|数字1-10|✔|✔|✔|✔|✔|
-|切换方案|Ctrl + Shift + `|任意大写|✔|✔|✔|✔|✔|
+|1-10选重|数字|数字选重|✔|✔|✔|✔|✔|
+|切换方案|Ctrl + Shift + `||✔|✔|✔|✔|✔|
+
+[更多说明](https://github.com/mlzzz/092wb/wiki)  
+
 ## 内置方案
 + **092五笔**：主体方案
-+ [四叶草拼音](https://github.com/fkxxyz/rime-cloverpinyin)：用于全拼使用者
 ## 下载地址：
  + [永硕E盘](http://092wb.ys168.com/)
 ## [东风破plum](https://github.com/rime/plum)
@@ -35,7 +35,7 @@
 
 1. 安装Plum  
 ```shell
-curl -fsSL https://mirror.ghproxy.com/https://raw.githubusercontent.com/rime/plum/master/rime-install | bash
+curl -fsSL https://raw.githubusercontent.com/rime/plum/master/rime-install | bash
 # or
 curl -fsSL https://mirror.ghproxy.com/https://raw.githubusercontent.com/rime/plum/master/rime-install | bash
 ```
