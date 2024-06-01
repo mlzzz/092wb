@@ -13,13 +13,13 @@
     - {accept: "Control+Shift+h", toggle: new_spelling, when: always}     # 拆分
     - {accept: "Control+Shift+j", toggle: new_hide_pinyin, when: always}  # 拼音
     - {accept: "Control+Shift+u", toggle: extended_char, when: always}    # 超集切换--core过滤
-    - {accept: "Control+Shift+m", toggle: show_es, when: always}          # emoji
+    - {accept: "Control+Shift+m", toggle: emoji, when: always}            # emoji
 # mac兼容（大写）
     - {accept: "Control+Shift+F", toggle: zh_trad, when: always}          # 繁简
     - {accept: "Control+Shift+H", toggle: new_spelling, when: always}     # 拆分
     - {accept: "Control+Shift+J", toggle: new_hide_pinyin, when: always}  # 拼音
     - {accept: "Control+Shift+U", toggle: extended_char, when: always}    # 超集切换--core过滤
-    - {accept: "Control+Shift+M", toggle: show_es, when: always}          # emoji
+    - {accept: "Control+Shift+M", toggle: emoji, when: always}            # emoji
     - {accept: "Shift+space", toggle: full_shape, when: always}           # 全角切换用于中文排版
     - {accept: "Control+period", toggle: ascii_punct, when: always}       # 中文模式下使用英文标点
 

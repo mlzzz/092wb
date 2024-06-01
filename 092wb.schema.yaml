@@ -37,13 +37,13 @@ switches:
   - name: full_shape        #默认是半角模式
     reset: 0
 #    states: [ 半, 全 ]
-  - name: show_es           # emoji
+  - name: emoji           # emoji
     reset: 0
 #    states: [ 😔, 😀 ] 
 engine:
   filters:
     - lua_filter@core                          # 加入此过滤，必须放到滤镜最上面
-    - simplifier@es_conversion                 # Emoji与符号滤镜
+    - simplifier@emoji                         # Emoji
     - lua_filter@new_spelling@spelling         # 拆分滤镜
     - simplifier@traditionalize                # 简繁切换
     - uniquifier
@@ -133,11 +133,14 @@ date_translator:
 lunar: nl  # 农历： 二〇二三年冬月二十 癸卯年（兔）冬月二十
 
 
+
 # Emoji
 # 来源：https://github.com/rime/rime-emoji
-es_conversion:                # Emoji与符号滤镜
-  opencc_config: es.json
-  option_name: show_es
+emoji:
+  option_name: emoji
+  opencc_config: emoji.json
+  inherit_comment: false  # 在 corrector.lua 及反查中，emoji 返回空注释
+
 
 repeat_last_input:    # 重复最后一次上屏
   input: z
