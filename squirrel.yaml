@@ -31,22 +31,22 @@ style:
 
   # 预设选项。如果皮肤没写，则使用这些属性；如果皮肤写了，使用皮肤的。
   text_orientation: horizontal  # horizontal | vertical
+  candidate_list_layout: linear # stacked | linear
   inline_preedit: true
-  horizontal: true
   corner_radius: 10
   hilited_corner_radius: 0
   border_height: 0
   border_width: 0
-  line_spacing: 5
-  spacing: 10
+  line_spacing: 5       # 在堆叠(stacked)布局中,候选词之间的空间
+  spacing: 10           # 在非内嵌(inline_preedit)模式下，预编辑和候选词之间的空间
   #candidate_format: '%c. %@'
   #base_offset: 6
-  font_face: 'Lucida Grande'
-  font_point: 21
+  font_face: 'PingFang SC'
+  font_point: 25
   #label_font_face: 'Lucida Grande'
-  label_font_point: 18
+  label_font_point: 14
   #comment_font_face: 'Lucida Grande'
-  comment_font_point: 18
+  comment_font_point: 14
 
 
 # 皮肤列表
@@ -57,7 +57,7 @@ preset_color_schemes:
     author: 雨過之後、佛振
     # 如果将字体设置为 PingFangSC-Regular
     # 会让 🈶🈚️🉑🈲🉐 这几个 Emoji 失去彩色效果，留空反而可以显示。。。
-    font_face: ""                   # 字体及大小
+    font_face: "PingFang SC"                   # 字体及大小
     font_point: 18
     label_font_face: "Helvetica"    # 序号字体及大小
     label_font_point: 12
@@ -185,11 +185,11 @@ preset_color_schemes:
   mac_dark:
     name: Mac深色
     candidate_format: "%c %@ "              # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间
-    corner_radius: 5                        # 窗口圆角
+    corner_radius: 4                        # 窗口圆角
     hilited_corner_radius: 5                # 高亮圆角
     line_spacing: 10                        # 行间距(适用于竖排)
-    border_height: 4                        # 窗口上下高度，大于圆角半径才生效
-    border_width: 4                         # 窗口左右宽度，大于圆角半径才生效 
+    border_height: 0                        # 窗口上下高度，大于圆角半径才生效
+    border_width: 0                         # 窗口左右宽度，大于圆角半径才生效 
     font_point: 16                          # 候选字大小
     label_font_point: 13                    # 候选编号大小
     text_color: 0x424242                    # 拼音行文字颜色
@@ -211,8 +211,8 @@ preset_color_schemes:
     corner_radius: 5                        # 窗口圆角
     hilited_corner_radius: 5                # 高亮圆角
     line_spacing: 10                        # 行间距(适用于竖排)
-    border_height: 4                        # 窗口上下高度，大于圆角半径才生效
-    border_width: 4                         # 窗口左右宽度，大于圆角半径才生效
+    border_height: 0                        # 窗口上下高度，大于圆角半径才生效
+    border_width: 0                         # 窗口左右宽度，大于圆角半径才生效
     font_point: 16                          # 候选字大小
     label_font_point: 13                    # 候选编号大小
     text_color: 0x424242                    # 拼音行文字颜色
