@@ -18,28 +18,28 @@ schema:
 switches:
   - name: ascii_mode
     reset: 0
-#    states: [ 中, Ａ ]
+    states: [ 中, Ａ ]
   - name: zh_trad
     reset: 0
-#    states: [ 简,繁 ]
+    states: [ 简,繁 ]
   - name: new_spelling
     reset: 0
-#    states: [ 拆,隐 ]  
+    states: [ 拆,隐 ]  
   - name: extended_char     # core过滤开关
     reset: 1                          
-#    states: [ 扩, 常] 
+    states: [ 扩, 常] 
   - name: new_hide_pinyin   # 显示读音
     reset: 1
-#    states: [ 音, 隐 ]
+    states: [ 音, 隐 ]
   - name: ascii_punct
     reset: 0
-#    states: [ 。，, ．， ]
+    states: [ 。，, ．， ]
   - name: full_shape        #默认是半角模式
     reset: 0
-#    states: [ 半, 全 ]
+    states: [ 半, 全 ]
   - name: emoji           # emoji
     reset: 0
-#    states: [ 😔, 😀 ] 
+    states: [ 😔, 😀 ] 
 engine:
   filters:
     - lua_filter@core                          # 加入此过滤，必须放到滤镜最上面
