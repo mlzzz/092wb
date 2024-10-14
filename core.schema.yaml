@@ -44,7 +44,17 @@ translator:
   dictionary: core
 
 punctuator:
+  import_preset: symbols
+
+recognizer:
   import_preset: default
+
+key_binder:
+  import_preset: default
+
+
+#punctuator:
+ # import_preset: default
 # 因为包含了Lua脚本，而这个方案没有@lua脚本。
 #recognizer:
 #  import_preset: default
