@@ -38,19 +38,10 @@ engine:
     - uniquifier
 
 speller:
-  alphabet: 1
+  alphabet: GHJKLMN
 
 translator:
   dictionary: core
-
-punctuator:
-  import_preset: symbols
-
-recognizer:
-  import_preset: default
-
-key_binder:
-  import_preset: default
 
 
 #punctuator:
