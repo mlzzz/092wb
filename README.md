@@ -33,20 +33,21 @@
 ## [东风破plum](https://github.com/rime/plum)
 「东风破」需要安装[Rime前端](https://github.com/rime/home/wiki/RimeWithIBus)。注销添加Rime
 
-1. 安装Plum  
+### 类Unix
+**安装Plum**  
 ```shell
 curl -fsSL https://raw.githubusercontent.com/rime/plum/master/rime-install | bash
 # or
 curl -fsSL https://mirror.ghproxy.com/https://raw.githubusercontent.com/rime/plum/master/rime-install | bash
 ```
 
-2. 安装配方  
+**安装配**  
 ```shell
 # 进入
 cd plum
 ```
 
-2.1 ibus-rime
+ibus-rime
 安装或更新所有文件
 ```shell
 bash rime-install mlzzz/092wb@private:recipes/full
@@ -67,7 +68,7 @@ bash rime-install mlzzz/092wb@private:recipes/opencc
 bash rime-install mlzzz/092wb@private:recipes/spelling
 ```
 
-2.2 第三方Rime前端，需在plum之用法前加上rime_frontend或rime_dir参数。
+第三方Rime前端，需在plum之用法前加上rime_frontend或rime_dir参数。
 安装或更新所有文件
 ```shell
 rime_frontend=fcitx-rime bash rime-install mlzzz/092wb@private:recipes/full
@@ -77,3 +78,5 @@ rime_frontend=fcitx-rime bash rime-install mlzzz/092wb@private:recipes/full
 ```shell
 rime_dir="$HOME/.config/fcitx/rime" bash rime-install mlzzz/092wb@private:recipes/full
 ```
+### Windows
+「输入法设定」-> 「获取更多输入方案」-> 「mlzzz/092wb@private」-> 布署
