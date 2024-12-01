@@ -10,7 +10,6 @@ install_files: >-
   092wb.schema.yaml
   092wb_U.dict.yaml
   092wb_key_bindings.yaml
-  README.md
   core.dict.yaml
   core.schema.yaml
   default.yaml
@@ -22,6 +21,5 @@ install_files: >-
   symbols.yaml
   wb_spelling.dict.yaml
   wb_spelling.schema.yaml
-  weasel.yaml
   opencc/*.*
   lua/*.*
