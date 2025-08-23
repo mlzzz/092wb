@@ -24,7 +24,7 @@ switches:
     states: [ 简,繁 ]
   - name: new_spelling
     reset: 0
-    states: [ 拆,隐 ]  
+    states: [ 隐,拆 ]  
   - name: extended_char     # core过滤开关
     reset: 1                          
     states: [ 扩, 常] 
@@ -155,5 +155,6 @@ recognizer:
 
 key_binder:
   import_preset: default
+
 
 
